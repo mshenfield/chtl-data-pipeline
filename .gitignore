@@ -1,0 +1,8 @@
+# Don't include any data, since it includes a ton or personal info (addresses, ethnicity, etc.)
+# and info on the tool library.
+input/*
+output/*
+sqlite/*.db
+
+# Not Jupyter notebook artifacts
+*.ipynb_checkpoints/
