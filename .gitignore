@@ -1,7 +1,6 @@
-# Don't include any data, since it includes a ton or personal info (addresses, ethnicity, etc.)
-# and info on the tool library.
-input/*
-output/*
+# Don't include raw downloads from my turn, which personal information like addresses and names.
+input_with_personal_info/*
+# Any DB in SQLite may also contain personal info.
 sqlite/*.db
 
 # Not Jupyter notebook artifacts

@@ -1,0 +1,546 @@
+,Item Type
+1,Tools
+2,Hand Tools
+3,Shovels & Digging
+4,Spade Shovel
+5,Square Shovel
+6,Round Point Shovel
+7,Planters Shovel
+11,Snow Shovel
+13,Rakes
+14,Metal Garden Rake
+17,Hand Rake
+21,Leaf Rake
+25,Loppers
+26,Hand Pruner
+27,Telescopic Pruner
+28,Fruit Pickers
+29,Axes
+30,Hatchet
+31,Wedge
+33,Hand Axe
+34,Maul
+35,Saws
+37,Hand Miter Saws
+38,Bow Saws
+39,Hack Saws
+40,Coping Saw
+41,Back Saws
+42,Crosscut Saws
+43,Drywall Saws
+44,Hole Saws
+45,Hole Saw Kits
+46,Key Hole Saws
+48,Wrenches
+49,Torque Wrench
+50,Pipe Wrenches
+51,Basin Wrench
+52,Belt Strap Wrench
+53,Chain Wrench
+54,Adjustable Wrench
+55,Lock Nut Wrench
+56,Open End Wrench
+58,Spanner Wrenches
+59,Wrench Sets
+60,Socket Sets
+61,Allen Wrench Sets
+62,Spark Plug Wrench Set
+63,Box Wrench Sets
+65,Ratcheting Wrench Sets
+67,Open End Wrench Sets
+68,Combination Wrench Sets
+69,Measuring & Layout Tools
+70,Levels
+71,Tape Measures
+72,Calipers
+73,Chalklines
+74,Squares
+75,Yardsticks
+76,Rulers
+77,Stud finder
+78,Plumb Bob
+79,T-Bevels
+80,Contour Gauges
+82,Compasses (drawing)
+84,Marking
+85,Scrapers
+88,Paint Scraper
+89,Sidewalk Ice Scraper
+90,Planes
+91,Chisels & Gouges
+92,Cement Chisel
+93,Cold Chisel
+94,Wood Chisel
+95,Drills
+96,"Bits, Drivers and Accessories"
+97,Drill Bits
+98,Screwdrivers
+99,Flat Screwdrivers
+100,Phillips Screwdrivers
+101,Torx Screwdrivers
+102,Screwdriver Sets
+103,Robertson Screwdrivers
+104,Clamps & Brackets
+105,C-Clamps
+106,Bar Clamps
+107,Corner Clamp
+108,Quick Grip Clamp
+109,Wood Clamp
+110,Drill Press Clamps
+112,Hand Clamps
+113,Vises
+114,Pipe Clamps
+115,Web Clamps
+117,Saw Blades
+118,Table Saw Blades
+120,Dado Saw Blades
+121,Hammers & Mallets
+122,Rubber Mallets
+123,Sledgehammers
+124,Ball Peen Hammers
+126,Claw Hammers
+130,Tack Hammers
+132,Ladders
+133,Step Ladders
+138,Multi Ladder
+142,Knives
+143,Linoleum Knives
+144,Putty Knife
+145,Utility Knives
+147,"Pliers, Cutters, and Snips"
+148,Slip Joint Pliers
+149,Wire Cutters
+150,Needle Nose Pliers
+152,Lineman Plier
+153,Locking Pliers
+155,Bolt Cutters
+156,Buckets
+157,Extension Poles
+158,Brushes and Rollers
+159,Sharp Bristle Brushes
+160,Counter Brush
+163,Smoothing Brush
+165,Paint Guide
+166,Paint Roller Frame
+167,Roller Tool
+169,Sanders
+171,Crimpers
+173,Crowbars
+175,Nail Puller
+176,Pry Bar
+179,Hand Tool Sets
+180,Trimmers
+181,Manual Hedge Trimmers
+182,Misc
+183,Edgers
+185,Manual Lawn Edger
+186,Manual Lawn Edger
+191,Tool Stands & Work Tables
+192,Saw Horses
+193,Table Rollers
+195,Tool Bench Work Mate
+196,Vise Grips
+197,Locks and Security
+198,Tap and Die
+200,Planters
+201,Pitchfork
+202,Hand Truck
+203,Drill Press (hand)
+204,Staple Guns
+206,Manual Staple Guns
+207,Tin Snips
+208,Tube Cutters
+209,Pipe Cutters
+210,Lawn Mower
+211,Shears
+213,Metal Shears
+214,Trowels & Floats
+215,Notched Trowel
+216,Trowel
+217,Brick Trowel
+218,Corner Trowel
+221,Tuck Point Trowel
+222,Float
+223,Caulk Guns
+224,Conduit Benders
+225,Machete
+227,Rivet Tools
+228,Squeegees
+229,Dollies
+231,Mixers & Dispensers
+234,Watering Tools
+235,Cultivators
+236,Testers (hand held)
+237,Augers & Drain Openers
+238,Manual Drain Auger
+239,Toilet Auger
+241,Files
+242,Punches
+243,Awl
+245,Rasps
+246,Center Punches
+248,Chain Hoist
+250,Hand Sickle
+251,Scythe
+252,Machete
+253,Sharpeners
+254,Finishing Stones
+255,Drywall Tools
+257,Joint Knives
+258,Bucket Scoops
+260,Taping Knives
+262,Electrical Tools
+263,Fish Tapes
+264,Wire Strippers
+265,Plumbing Tools
+268,Nail Sets
+269,Jigs
+270,Pocket Hole Jigs
+271,Dovetail Jigs
+272,Gear Pullers
+273,Hand Air Pumps
+274,Plug Cutters
+275,Paint Can Openers
+276,Cleaning Brushes
+277,Wire Brushes
+280,Woodworking Kits
+281,Pickaxes & Mattocks
+282,Pickaxes
+284,Pick Mattocks
+286,Power Tools
+287,Corded & Plug-in
+288,Power Drills
+289,Power Drill 1/2in
+290,Power Drill 3/8in
+291,Hammer Drills
+292,Power Saws
+295,Circular Saws
+297,Scroller Power Saws
+298,Corded Miter Saws
+301,Jig Saws
+303,Table Saws
+304,Wet Tile Saws
+305,Band Saws
+307,Corded Trimmers
+308,Electric Hedge Trimmers
+309,Electric Lawn Edger
+313,Extension Cords
+314,Electric Chippers
+315,Buffers
+316,Testers
+318,Circuit Testers
+319,Voltage Tester
+320,Sanders & Planers
+321,Random Orbit Sander
+322,Finishing Power Sanders
+323,Belt Sanders
+328,Power Planer
+329,Power Sanders
+331,Reciprocating Saw
+333,Soldering & Heat Guns
+334,Soldering Iron
+335,Heat Gun
+336,Hot Glue Gun
+337,Paint Sprayer
+338,Electric Dehydrators
+339,Routers
+340,Rotary Tools
+341,Dremel Multi Pro
+342,Roto Zip
+343,Drill Press (power)
+344,Pressure Washers
+345,Pressure Washer Attachments
+346,Electric Air Pumps
+347,Chargers
+348,12v Battery Chargers
+349,Rechargeable Battery Charger
+350,Electric Leaf Blower
+352,Engraver
+353,Electric Pumps
+354,Submersible Pump
+358,Electric Concrete Stirrers
+359,Paint Mixers & Stirrers
+360,Electric Augers & Drain Openers
+361,Vacuum Cleaners
+362,Wet-Dry Vac
+363,Handheld Vacuums
+364,Upright Vacuums
+368,Router Accessories
+375,Router Bits
+378,Molding Router Bits
+384,Corded Grinders
+385,Electric Nailers
+386,Steam Cleaners
+387,Carpet Steam Cleaners
+392,Cordless Power Tools
+393,Cordless Drills
+394,Flashlights
+395,Cordless Trimmers
+396,Cordless Saws
+397,Cordless Circular Saw
+398,Cordless Screwdrivers
+400,Cordless Vacuums
+401,Cordless Impact Drivers
+402,Cordless Tool Batteries
+403,12V Cordless Tool Batteries
+404,18V Cordless Tool Batteries
+405,20V Cordless Tool Batteries
+408,Cordless Hedge Trimmers
+411,Grinders
+412,Bench Grinders
+414,Angle Grinders
+415,Lathes
+416,Power Sharpeners
+419,Biscuit Joiners
+422,Power Tool Accessories
+423,Air & Pneumatic Tools
+424,Compressors
+425,Air Tool Sets
+426,Jacks
+428,House Jack
+429,Air Brad Nailers
+430,Air Finish Nailers
+431,Air Staplers
+435,Air Wrenches
+436,Air Sanders
+441,Bike Tools
+442,Bottom Bracket Tools
+444,Drive Train Tools
+446,Wheel Tools
+449,Bike Repair Stands
+451,Propane Torch Kit
+463,Meters & Diagnostics
+465,Multimeters
+466,Power Meters
+467,Non-logging Power Meters
+489,Distance Meters
+490,Detectors
+497,Tachometers
+505,Wheelbarrow
+506,Safety Equipment
+507,Work Gloves
+508,Protective Goggles
+509,Respirators
+510,Safety Glasses
+515,Ear Muffs
+524,Automotive Tools
+525,Jack Stands
+526,Automotive Jacks
+527,Garage Jacks
+529,Automotive Ramps
+530,Automotive Pressure Gauges
+535,Post Hole Digger
+542,Garden Tools
+543,Weeders
+546,Hoes
+548,Hand Seeders
+554,Hand Tillers
+556,Planting Templates
+562,Garden Hoses
+566,Farm Tools
+586,Manure Spreaders
+600,Chainsaws
+607,Pruning Saw
+608,Pruning Shears
+614,Hand Pump Orchard Sprayers
+624,Welders
+633,Welding Gloves
+636,Welding Helmets
+641,MIG Welders
+655,Chains
+656,Bungee Cords
+658,Ropes
+659,Flooring Tools
+660,Carpet Tools
+662,Carpet Roller
+664,Tile Cutters
+665,Hand Tile Cutter
+666,Tile Nipper
+667,Laminate Flooring Cutters
+668,Kitchen & Dining
+669,"Canning, Preserving & Homebrew"
+670,Appliances
+671,Cook's Tools
+679,Other Kitchen & Serving
+680,Food Service Displays
+768,Glassware & Drinkware
+770,Glassware
+778,Ceramic Mugs
+782,Food Storage
+783,Kitchen Gadgets
+786,Plates & Bowls
+796,Small Appliances
+797,Grain Mills
+799,Ice Cream Makers
+800,Bread Makers
+801,Instant Pots
+802,Slow Cookers
+803,Pots & Pans
+805,Induction Cooktops
+820,Books
+829,Magazines
+830,DVD
+833,CD-ROM
+835,Props
+852,Electronics
+853,Lights
+854,Work Lights
+855,Clamp Lights
+856,Hanging Lights
+863,Network Equipment
+864,Network Switches
+868,Network Cables
+872,Controllers
+873,Video Game Accessories
+874,Computers
+875,Laptop Computers
+877,Windows Laptops
+881,Keyboards & Mice
+890,Monitors and Displays
+891,Computer Power Adapters
+894,Computer Cables
+895,USB-A Cables
+896,USB-C Cables
+909,Printers & Scanners
+910,3D Printers
+912,Label Makers
+916,Black & White Laser Printers
+917,Inkjet Printers
+918,Multifunction Inkjet Printers
+926,Video & Photography
+931,Projectors
+937,TVs
+946,Video Adapters
+949,Camera Lighting Equipment
+958,Projector Screens
+960,Camera Tripods
+961,Video Switchers
+965,Video Players & Recorders
+967,Blu-ray Players
+977,Sensors
+990,Telephones
+1051,iPhones
+1053,Other Electronic Devices
+1071,Barcode Scanners
+1078,USB Flash Drives & Memory Cards
+1079,VR Gear
+1090,Power
+1091,Power Adapters
+1092,AC Adapters
+1096,Power Strips
+1097,Surge Protectors
+1098,Power Plug & Socket Adapters
+1100,Microphones
+1110,Speakers & Amplifiers
+1122,Audio Cables
+1136,Audio Recording Gear
+1140,Audio Mixers
+1145,Public Address Systems
+1146,Microphone Stands
+1193,Sports & Outdoors
+1201,Snowboards
+1205,Goggles
+1207,Boats & Rafts
+1208,Skates
+1209,Camping & Hiking
+1210,Tents
+1213,Hiking Backpacks
+1216,Camp Stoves
+1217,Two Burner Camp Stoves
+1220,Liquid Fuel Stoves
+1221,Water Bottles
+1222,Sleeping Bags
+1224,Sleeping Pads
+1225,Foam Sleeping Pads
+1226,Air Mattress Sleeping Pads
+1228,Camping Tarps
+1236,Camping & Hiking Storage
+1239,Camping Chairs
+1251,Telescopes & Binoculars
+1259,Telescopes
+1267,Sports & Outdoor Accessories
+1269,Headlamps
+1272,Winter Sports
+1291,Climbing & Mountaineering
+1297,Climbing Harnesses
+1301,Outdoors Safety
+1305,Personal Flotation Devices
+1319,Bicycle Accessories
+1323,Bicycle Trailers
+1326,Rafts
+1344,Kayaking Gear
+1348,Wetsuits
+1356,BBQ Grills
+1360,Marine & Fishing
+1365,Traps & Pots
+1511,Guitars
+1597,Musical Instrument Accessories
+1624,Vehicles & Trailers
+1625,Cars
+1640,Hitches & Towing Accessories
+1642,Ratchet Straps
+1647,Earthmoving Equipment
+1669,Clothing
+1716,Boots
+1723,Jewelry & Accessories
+1749,Helmets
+1750,Hard Hats
+1752,Eye Protection
+1754,Hats
+1764,Handbags
+1766,Totes
+1777,Toys & Games
+1778,Games
+1779,Board Games
+1783,Other Games
+1784,Toys
+1788,Activities
+1794,Furniture & Spaces
+1796,Offices
+1797,Gardens
+1801,Chairs
+1802,Folding Chairs
+1804,Tables
+1805,Folding Tables
+1807,Storage Furniture
+1808,Miscellaneous Furniture
+1810,Keys
+1811,Storage & Organization
+1818,Storage Bins
+1819,Waste & Trash Baskets
+1821,Ironing Boards
+1824,Steam Irons
+1827,Moving Supplies
+1828,Moving Blankets
+1832,Moving Carts
+1838,Cleaning
+1840,Push Brooms
+1841,House Broom
+1842,Brooms
+1889,Pillows
+1893,Pet Carriers
+1899,Medical Equipment
+1912,Thermometers
+1914,Walkers
+1915,Knee Wheelers & Scooters
+1916,Rollators & Rolling Walkers
+1917,Canes
+1920,Shower Chairs & Benches
+1923,Bathroom Grab Bars
+1927,Knee Braces
+1928,Walking Boots & Braces
+1943,Medical Trauma Kit
+1968,Art
+1972,Fiber Arts
+1973,Ceramic & Glass Arts
+1974,Wood & Metal Arts
+1975,Materials
+1983,Wood
+2156,Research Equipment
+2158,Microscopes
+2170,General Measurement
+2171,Hobbies & Crafts
+2172,Sewing Machines
+2179,Hobby & Craft Kits
+2180,Scissors
+2223,Beverage Service Equipment
