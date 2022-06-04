@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Get a list of staged ipynb files
+files=$(git diff --name-only --cached *.ipynb)
+
+if [[ -z $files ]]
+then
+  exit
+fi
+
+# Automatically remove output from staged changes beforecommitting
+jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace $files
+
+# Re-add the changed files so they're committed
+git add $files
