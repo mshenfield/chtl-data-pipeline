@@ -8,6 +8,8 @@ jupyterlab = "*"
 pandas = "*"
 matplotlib = "*"
 nbconvert = {extras = ["pdf", "webpdf"], version = "*"}
+requests = "*"
+click = "*"
 
 [dev-packages]
 

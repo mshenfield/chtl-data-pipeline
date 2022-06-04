@@ -16,9 +16,29 @@ jupyter lab
 
 This will open a browser window where you can edit and run the import/processing scripts.
 
+Before commiting changes or submitting pull requests, run `cp pre-commit .git/hooks`. This file is set up to automatically remove ipynb notebook output prior to committing (as long as you are running `git commit` in a `pipenv shell`).
+
 ## Inputs
 
-Data is manually exported from [the CHTL MyTurn site](https://capitolhill.myturn.com/).  To export, request [Super Admin access](https://support.myturn.com/hc/en-us/articles/205664648-Creating-Additional-Admin-Users), or ask an existing Super Admin to export the data for you.
+Data can be manually or programatically exported from [the CHTL MyTurn site](https://capitolhill.myturn.com/).  To export, request [Super Admin access](https://support.myturn.com/hc/en-us/articles/205664648-Creating-Additional-Admin-Users), or ask an existing Super Admin to export the data for you.
+
+
+## Automated Export
+
+You can automatically download and anomyize files using `cli.py` in lib.
+
+```
+# Make sure you're in a pipenv shell, and the root of this project
+pipenv shell
+./lib/cli.py download --subdomain capitolhill --output_directory input_with_personal_info/
+./lib/cli.py anonymize --input_directory input_with_personal_info/ --output_directory input/
+# TODO: Convert the more stable Python notebooks into a format we can run from the CLI
+# TODO: Allow downloading/process/anonymizing a particular report
+```
+
+## Manual Export
+
+The process for manually exporting data is documented here. This is kept up to date because it makes it clear where data is coming from, and is used to grab the URL used by the programattic download script.
 
 * Inventory
   * Go to the ["Export Inventory"](https://capitolhill.myturn.com/library/orgInventory/report) page
@@ -63,7 +83,7 @@ Data is manually exported from [the CHTL MyTurn site](https://capitolhill.myturn
 * Item Types
   * A list of Item Types can be downloaded directly from [this link](https://capitolhill.myturn.com/library/orgDefaults/export?format=csv&extension=csv). This link is also listed on the ["Inventory" > "Import"](https://capitolhill.myturn.com/library/orgInventory/importInventory) page.
 
-When done, run `anonymize_input_with_personal_info.py` to remove any personal info from the downloads and copy it to the `input` folder, where it can be committed to source control and used by scripts.
+When done, run `./lib/cli.py anonymize --input_directory input_with_personal_info/ --output_directory input/` to remove any personal info from the downloads and copy it to the `input` folder, where it can be committed to source control and used by scripts.
 
 ## Outputs
 
