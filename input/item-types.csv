@@ -865,7 +865,7 @@ Word Processors,Other Mobile Devices,Word Processors -> Other Mobile Devices -> 
 Network Equipment,Electronics,Network Equipment -> Electronics
 Network Switches,Network Equipment,Network Switches -> Network Equipment -> Electronics
 Wireless Networking,Network Equipment,Wireless Networking -> Network Equipment -> Electronics
-Wireless Hotspot,Wireless Networking,Wireless Hotspot -> Wireless Networking -> Network Equipment -> Electronics
+Wireless Hotspots,Wireless Networking,Wireless Hotspots -> Wireless Networking -> Network Equipment -> Electronics
 Network Accessories,Network Equipment,Network Accessories -> Network Equipment -> Electronics
 Network Cables,Network Accessories,Network Cables -> Network Accessories -> Network Equipment -> Electronics
 Modems,Network Equipment,Modems -> Network Equipment -> Electronics
@@ -1159,7 +1159,7 @@ Other HiFi Equipment,HiFi Equipment,Other HiFi Equipment -> HiFi Equipment -> Au
 Audio Power Amplifiers,Audio,Audio Power Amplifiers -> Audio -> Electronics
 Audio Players & Recorders,Audio,Audio Players & Recorders -> Audio -> Electronics
 CD Players,Audio Players & Recorders,CD Players -> Audio Players & Recorders -> Audio -> Electronics
-Cassette Tape Players,Audio Players & Recorders,Cassette Tape Players -> Audio Players & Recorders -> Audio -> Electronics
+CassetteÂ Tape Players,Audio Players & Recorders,CassetteÂ Tape Players -> Audio Players & Recorders -> Audio -> Electronics
 Turntables,Audio Players & Recorders,Turntables -> Audio Players & Recorders -> Audio -> Electronics
 MP3 & Portable Audio Players,Audio Players & Recorders,MP3 & Portable Audio Players -> Audio Players & Recorders -> Audio -> Electronics
 Audio Playback Equipment,Audio,Audio Playback Equipment -> Audio -> Electronics
@@ -1181,17 +1181,18 @@ FM Transmitters,Wireless Audio Equipment,FM Transmitters -> Wireless Audio Equip
 Speaker Stands,Audio,Speaker Stands -> Audio -> Electronics
 Microcontroller Kits,Electronics,Microcontroller Kits -> Electronics
 AR Gear,Electronics,AR Gear -> Electronics
-Light­ing Con­trol­lers,Electronics,Light­ing Con­trol­lers -> Electronics
-Dimmer Packs,Light­ing Con­trol­lers,Dimmer Packs -> Light­ing Con­trol­lers -> Electronics
-DMX interfaces,Light­ing Con­trol­lers,DMX interfaces -> Light­ing Con­trol­lers -> Electronics
-DMX Cables,Light­ing Con­trol­lers,DMX Cables -> Light­ing Con­trol­lers -> Electronics
-3 Pole DMX Cables,DMX Cables,3 Pole DMX Cables -> DMX Cables -> Light­ing Con­trol­lers -> Electronics
-5 Pole DMX Cables,DMX Cables,5 Pole DMX Cables -> DMX Cables -> Light­ing Con­trol­lers -> Electronics
-DMX Adapters,DMX Cables,DMX Adapters -> DMX Cables -> Light­ing Con­trol­lers -> Electronics
-DMX Splitters,Light­ing Con­trol­lers,DMX Splitters -> Light­ing Con­trol­lers -> Electronics
-Lighting Control Desks,Light­ing Con­trol­lers,Lighting Control Desks -> Light­ing Con­trol­lers -> Electronics
-Wireless DMX,Light­ing Con­trol­lers,Wireless DMX -> Light­ing Con­trol­lers -> Electronics
-Other Lighting Controllers,Light­ing Con­trol­lers,Other Lighting Controllers -> Light­ing Con­trol­lers -> Electronics
+LightÂ­ing ConÂ­trolÂ­lers,Electronics,LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+Dimmer Packs,LightÂ­ing ConÂ­trolÂ­lers,Dimmer Packs -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+DMX interfaces,LightÂ­ing ConÂ­trolÂ­lers,DMX interfaces -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+DMX Cables,LightÂ­ing ConÂ­trolÂ­lers,DMX Cables -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+3 Pole DMX Cables,DMX Cables,3 Pole DMX Cables -> DMX Cables -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+5 Pole DMX Cables,DMX Cables,5 Pole DMX Cables -> DMX Cables -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+DMX Adapters,DMX Cables,DMX Adapters -> DMX Cables -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+DMX Splitters,LightÂ­ing ConÂ­trolÂ­lers,DMX Splitters -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+Lighting Control Desks,LightÂ­ing ConÂ­trolÂ­lers,Lighting Control Desks -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+Wireless DMX,LightÂ­ing ConÂ­trolÂ­lers,Wireless DMX -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+Other Lighting Controllers,LightÂ­ing ConÂ­trolÂ­lers,Other Lighting Controllers -> LightÂ­ing ConÂ­trolÂ­lers -> Electronics
+Mobile Hotspots,Electronics,Mobile Hotspots -> Electronics
 Sports & Outdoors,root,Sports & Outdoors
 Bicycles,Sports & Outdoors,Bicycles -> Sports & Outdoors
 Mountain Bikes,Bicycles,Mountain Bikes -> Bicycles -> Sports & Outdoors
@@ -1443,6 +1444,16 @@ Hockey Gear,Sports & Outdoors,Hockey Gear -> Sports & Outdoors
 Hockey Sticks,Hockey Gear,Hockey Sticks -> Hockey Gear -> Sports & Outdoors
 Hockey Helmets,Hockey Gear,Hockey Helmets -> Hockey Gear -> Sports & Outdoors
 Hocket Goals,Hockey Gear,Hocket Goals -> Hockey Gear -> Sports & Outdoors
+Racquetball Equipment,Sports & Outdoors,Racquetball Equipment -> Sports & Outdoors
+Racquetball Racquets,Racquetball Equipment,Racquetball Racquets -> Racquetball Equipment -> Sports & Outdoors
+Racquetball Bags,Racquetball Equipment,Racquetball Bags -> Racquetball Equipment -> Sports & Outdoors
+Racquetball Eyewear,Racquetball Equipment,Racquetball Eyewear -> Racquetball Equipment -> Sports & Outdoors
+Racquetball Balls,Racquetball Equipment,Racquetball Balls -> Racquetball Equipment -> Sports & Outdoors
+Soccer Equipment,Sports & Outdoors,Soccer Equipment -> Sports & Outdoors
+Soccer Balls,Soccer Equipment,Soccer Balls -> Soccer Equipment -> Sports & Outdoors
+Soccer Shin Guards,Soccer Equipment,Soccer Shin Guards -> Soccer Equipment -> Sports & Outdoors
+Soccer Bags,Soccer Equipment,Soccer Bags -> Soccer Equipment -> Sports & Outdoors
+Soccer Nets,Soccer Equipment,Soccer Nets -> Soccer Equipment -> Sports & Outdoors
 Education,root,Education
 Resource Boxes,Education,Resource Boxes -> Education
 Education Supplies,Education,Education Supplies -> Education
@@ -1844,6 +1855,10 @@ House Broom,Brooms & Mops,House Broom -> Brooms & Mops -> Cleaning -> Furniture 
 Brooms,Brooms & Mops,Brooms -> Brooms & Mops -> Cleaning -> Furniture & Spaces
 Mops,Brooms & Mops,Mops -> Brooms & Mops -> Cleaning -> Furniture & Spaces
 Luggage,Furniture & Spaces,Luggage -> Furniture & Spaces
+Carry On Luggage,Luggage,Carry On Luggage -> Luggage -> Furniture & Spaces
+Suitcases,Luggage,Suitcases -> Luggage -> Furniture & Spaces
+Garment Bags,Luggage,Garment Bags -> Luggage -> Furniture & Spaces
+Luggage Sets,Luggage,Luggage Sets -> Luggage -> Furniture & Spaces
 Stage & Screen,Furniture & Spaces,Stage & Screen -> Furniture & Spaces
 Scenery & Sets,Stage & Screen,Scenery & Sets -> Stage & Screen -> Furniture & Spaces
 Studio & Soundstage Scenery,Scenery & Sets,Studio & Soundstage Scenery -> Scenery & Sets -> Stage & Screen -> Furniture & Spaces
@@ -1857,10 +1872,10 @@ Scenic Soft Furnishings,Set Dressing,Scenic Soft Furnishings -> Set Dressing -> 
 Scenic Lights & Light Fittings,Set Dressing,Scenic Lights & Light Fittings -> Set Dressing -> Stage & Screen -> Furniture & Spaces
 Scenic Plumbing & Pipework,Set Dressing,Scenic Plumbing & Pipework -> Set Dressing -> Stage & Screen -> Furniture & Spaces
 Scenic Door & Window Ironmongery,Set Dressing,Scenic Door & Window Ironmongery -> Set Dressing -> Stage & Screen -> Furniture & Spaces
-Stage Props,Stage & Screen,Stage Props -> Stage & Screen -> Furniture & Spaces
-Stage Weapons,Stage Props,Stage Weapons -> Stage Props -> Stage & Screen -> Furniture & Spaces
-Small Props,Stage Props,Small Props -> Stage Props -> Stage & Screen -> Furniture & Spaces
-Large Props,Stage Props,Large Props -> Stage Props -> Stage & Screen -> Furniture & Spaces
+StageÂ Props,Stage & Screen,StageÂ Props -> Stage & Screen -> Furniture & Spaces
+Stage Weapons,StageÂ Props,Stage Weapons -> StageÂ Props -> Stage & Screen -> Furniture & Spaces
+Small Props,StageÂ Props,Small Props -> StageÂ Props -> Stage & Screen -> Furniture & Spaces
+Large Props,StageÂ Props,Large Props -> StageÂ Props -> Stage & Screen -> Furniture & Spaces
 Structure & Staging,Stage & Screen,Structure & Staging -> Stage & Screen -> Furniture & Spaces
 Modular Staging,Structure & Staging,Modular Staging -> Structure & Staging -> Stage & Screen -> Furniture & Spaces
 Trusses & Scaffolding,Structure & Staging,Trusses & Scaffolding -> Structure & Staging -> Stage & Screen -> Furniture & Spaces
@@ -1880,7 +1895,7 @@ Period Costumes,Costumes,Period Costumes -> Costumes -> Stage & Screen -> Furnit
 Parade & Carnival Costumes,Costumes,Parade & Carnival Costumes -> Costumes -> Stage & Screen -> Furniture & Spaces
 Scenic Materials,Stage & Screen,Scenic Materials -> Stage & Screen -> Furniture & Spaces
 Surplus Scenic Materials,Scenic Materials,Surplus Scenic Materials -> Scenic Materials -> Stage & Screen -> Furniture & Spaces
-Reclaimed Stage Materials,Scenic Materials,Reclaimed Stage Materials -> Scenic Materials -> Stage & Screen -> Furniture & Spaces
+Reclaimed StageÂ Materials,Scenic Materials,Reclaimed StageÂ Materials -> Scenic Materials -> Stage & Screen -> Furniture & Spaces
 Smoke & Effects,Stage & Screen,Smoke & Effects -> Stage & Screen -> Furniture & Spaces
 Bubble Machines,Smoke & Effects,Bubble Machines -> Smoke & Effects -> Stage & Screen -> Furniture & Spaces
 Effect Fans,Smoke & Effects,Effect Fans -> Smoke & Effects -> Stage & Screen -> Furniture & Spaces
@@ -2127,18 +2142,24 @@ Dynamic Display Communicators,AAC Devices,Dynamic Display Communicators -> AAC D
 AAC Talkers,AAC Devices,AAC Talkers -> AAC Devices -> Assistive Technology
 AAC Switches,AAC Devices,AAC Switches -> AAC Devices -> Assistive Technology
 AAC Timers,AAC Devices,AAC Timers -> AAC Devices -> Assistive Technology
-"Mobility, Positioning & Seating",Assistive Technology,"Mobility, Positioning & Seating -> Assistive Technology"
-Assistive Mounts,"Mobility, Positioning & Seating","Assistive Mounts -> Mobility, Positioning & Seating -> Assistive Technology"
-Wheelchair Mounts,Assistive Mounts,"Wheelchair Mounts -> Assistive Mounts -> Mobility, Positioning & Seating -> Assistive Technology"
-Universal Wheelchair Mounts,Wheelchair Mounts,"Universal Wheelchair Mounts -> Wheelchair Mounts -> Assistive Mounts -> Mobility, Positioning & Seating -> Assistive Technology"
-Customizable Wheelchair Mounts,Wheelchair Mounts,"Customizable Wheelchair Mounts -> Wheelchair Mounts -> Assistive Mounts -> Mobility, Positioning & Seating -> Assistive Technology"
-Tabletop Assistive Mounts,Assistive Mounts,"Tabletop Assistive Mounts -> Assistive Mounts -> Mobility, Positioning & Seating -> Assistive Technology"
-Assistive Positioning Aids,"Mobility, Positioning & Seating","Assistive Positioning Aids -> Mobility, Positioning & Seating -> Assistive Technology"
-Gait Trainers/Walkers,"Mobility, Positioning & Seating","Gait Trainers/Walkers -> Mobility, Positioning & Seating -> Assistive Technology"
-Floor Sitters,"Mobility, Positioning & Seating","Floor Sitters -> Mobility, Positioning & Seating -> Assistive Technology"
-Adapted Chairs,"Mobility, Positioning & Seating","Adapted Chairs -> Mobility, Positioning & Seating -> Assistive Technology"
-Adapted Bathing,"Mobility, Positioning & Seating","Adapted Bathing -> Mobility, Positioning & Seating -> Assistive Technology"
-Standers,"Mobility, Positioning & Seating","Standers -> Mobility, Positioning & Seating -> Assistive Technology"
+"Mobility, Positioning, & Seating",Assistive Technology,"Mobility, Positioning, & Seating -> Assistive Technology"
+Assistive Mounts,"Mobility, Positioning, & Seating","Assistive Mounts -> Mobility, Positioning, & Seating -> Assistive Technology"
+Wheelchair Mounts,Assistive Mounts,"Wheelchair Mounts -> Assistive Mounts -> Mobility, Positioning, & Seating -> Assistive Technology"
+Universal Wheelchair Mounts,Wheelchair Mounts,"Universal Wheelchair Mounts -> Wheelchair Mounts -> Assistive Mounts -> Mobility, Positioning, & Seating -> Assistive Technology"
+Customizable Wheelchair Mounts,Wheelchair Mounts,"Customizable Wheelchair Mounts -> Wheelchair Mounts -> Assistive Mounts -> Mobility, Positioning, & Seating -> Assistive Technology"
+Tabletop Assistive Mounts,Assistive Mounts,"Tabletop Assistive Mounts -> Assistive Mounts -> Mobility, Positioning, & Seating -> Assistive Technology"
+Assistive Positioning Aids,"Mobility, Positioning, & Seating","Assistive Positioning Aids -> Mobility, Positioning, & Seating -> Assistive Technology"
+Gait Trainers/Walkers,"Mobility, Positioning, & Seating","Gait Trainers/Walkers -> Mobility, Positioning, & Seating -> Assistive Technology"
+Floor Sitters,"Mobility, Positioning, & Seating","Floor Sitters -> Mobility, Positioning, & Seating -> Assistive Technology"
+Adaptive Chairs,"Mobility, Positioning, & Seating","Adaptive Chairs -> Mobility, Positioning, & Seating -> Assistive Technology"
+Adaptive Bathing,"Mobility, Positioning, & Seating","Adaptive Bathing -> Mobility, Positioning, & Seating -> Assistive Technology"
+Standers,"Mobility, Positioning, & Seating","Standers -> Mobility, Positioning, & Seating -> Assistive Technology"
+Adaptive Toileting,"Mobility, Positioning, & Seating","Adaptive Toileting -> Mobility, Positioning, & Seating -> Assistive Technology"
+Adaptive Strollers,"Mobility, Positioning, & Seating","Adaptive Strollers -> Mobility, Positioning, & Seating -> Assistive Technology"
+Adaptive Wheelchairs,"Mobility, Positioning, & Seating","Adaptive Wheelchairs -> Mobility, Positioning, & Seating -> Assistive Technology"
+Adaptive Desktops,"Mobility, Positioning, & Seating","Adaptive Desktops -> Mobility, Positioning, & Seating -> Assistive Technology"
+Assistive Ramps,"Mobility, Positioning, & Seating","Assistive Ramps -> Mobility, Positioning, & Seating -> Assistive Technology"
+Gait Trainer/Walker Accessories,"Mobility, Positioning, & Seating","Gait Trainer/Walker Accessories -> Mobility, Positioning, & Seating -> Assistive Technology"
 Sensory,Assistive Technology,Sensory -> Assistive Technology
 Sensory Seating,Sensory,Sensory Seating -> Sensory -> Assistive Technology
 Pressure & Weighted,Sensory,Pressure & Weighted -> Sensory -> Assistive Technology
@@ -2149,6 +2170,9 @@ Vibration,Sensory,Vibration -> Sensory -> Assistive Technology
 Headphone AT,Sensory,Headphone AT -> Sensory -> Assistive Technology
 Adaptive Play & Recreation,Assistive Technology,Adaptive Play & Recreation -> Assistive Technology
 Group Play AT,Adaptive Play & Recreation,Group Play AT -> Adaptive Play & Recreation -> Assistive Technology
+Adaptive Bikes & Trikes,Adaptive Play & Recreation,Adaptive Bikes & Trikes -> Adaptive Play & Recreation -> Assistive Technology
+Adaptive Toys,Adaptive Play & Recreation,Adaptive Toys -> Adaptive Play & Recreation -> Assistive Technology
+Adaptive Swings,Adaptive Play & Recreation,Adaptive Swings -> Adaptive Play & Recreation -> Assistive Technology
 Gross Motor,Assistive Technology,Gross Motor -> Assistive Technology
 Balls  AT,Gross Motor,Balls  AT -> Gross Motor -> Assistive Technology
 Balance / Stepping AT,Gross Motor,Balance / Stepping AT -> Gross Motor -> Assistive Technology
@@ -2184,6 +2208,10 @@ Bottle Cutters,Hobbies & Crafts,Bottle Cutters -> Hobbies & Crafts
 Journals,Hobbies & Crafts,Journals -> Hobbies & Crafts
 Electrical Equipment,root,Electrical Equipment
 Generators,Electrical Equipment,Generators -> Electrical Equipment
+Backup Generators,Generators,Backup Generators -> Generators -> Electrical Equipment
+Inverter Generators,Generators,Inverter Generators -> Generators -> Electrical Equipment
+Solar/Battery Generators,Generators,Solar/Battery Generators -> Generators -> Electrical Equipment
+Portable Generators,Generators,Portable Generators -> Generators -> Electrical Equipment
 Portable Power Distribution,Electrical Equipment,Portable Power Distribution -> Electrical Equipment
 16A Portable Distribution Boxes,Portable Power Distribution,16A Portable Distribution Boxes -> Portable Power Distribution -> Electrical Equipment
 32A Portable Distribution Boxes,Portable Power Distribution,32A Portable Distribution Boxes -> Portable Power Distribution -> Electrical Equipment
