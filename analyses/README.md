@@ -1,6 +1,6 @@
 # Analysis scripts
 
-This directory contains scripts that run one-time analyses on the contents of the root `output` directory.
+This directory contains scripts that run one-time analyses on the contents of the root `data/output` directory.
 
 ## Contents
 
