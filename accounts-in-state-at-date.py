@@ -17,7 +17,7 @@
 import pandas as pd
 from datetime import date
 
-members = pd.read_pickle('output/members.pkl')
+members = pd.read_pickle('data/output/members.pkl')
 
 # TODO: Move this to 01_members.py
 #
