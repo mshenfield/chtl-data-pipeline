@@ -89,6 +89,10 @@ When done, run `./lib/cli.py anonymize --input_directory data/input_with_persona
 
 To generate data in `data/output/`, run each notebook in the order it appears in jupyter lab. The prefix of each file (`01_` etc.) indicates whether it depends on any previous file. Files with `01_` don't depend on any other files, but files with `02_` depend on the outputs of `01_`, and so on.
 
+## Bash And Other Scripts
+
+For analyses that aren't iPython notebooks, place them in the analyses folder.
+
 ## License
 
 MIT
