@@ -667,6 +667,7 @@ Tile Cutters,Flooring Tools,Tile Cutters -> Flooring Tools -> Tools
 Hand Tile Cutter,Tile Cutters,Hand Tile Cutter -> Tile Cutters -> Flooring Tools -> Tools
 Tile Nipper,Tile Cutters,Tile Nipper -> Tile Cutters -> Flooring Tools -> Tools
 Laminate Flooring Cutters,Flooring Tools,Laminate Flooring Cutters -> Flooring Tools -> Tools
+Tool Kits,Tools,Tool Kits -> Tools
 Kitchen & Dining,root,Kitchen & Dining
 "Canning, Preserving & Homebrew",Kitchen & Dining,"Canning, Preserving & Homebrew -> Kitchen & Dining"
 Appliances,Kitchen & Dining,Appliances -> Kitchen & Dining
@@ -1913,6 +1914,8 @@ Pet Toys,Pets,Pet Toys -> Pets -> Furniture & Spaces
 Walls,Furniture & Spaces,Walls -> Furniture & Spaces
 Yardshares,Furniture & Spaces,Yardshares -> Furniture & Spaces
 Yardshare Gardeners,Furniture & Spaces,Yardshare Gardeners -> Furniture & Spaces
+Rooms,Furniture & Spaces,Rooms -> Furniture & Spaces
+Workspaces,Furniture & Spaces,Workspaces -> Furniture & Spaces
 Medical Equipment,root,Medical Equipment
 Medical Simulators,Medical Equipment,Medical Simulators -> Medical Equipment
 Medical Simulator Kits,Medical Simulators,Medical Simulator Kits -> Medical Simulators -> Medical Equipment
