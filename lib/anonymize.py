@@ -9,8 +9,7 @@ import pandas as pd
 
 CHECKED_OUT_LOANS_COLS = (
     "Loan ID","Membership ID","Item ID","Item Name","Checked Out",
-    "Checked In","Due Date","Check Out Location","Check In Location",
-    "Late Fees to Date","Renewal",
+    "Checked In","Due Date", "Late Fees to Date","Renewal",
 )
 
 # All the columns. List of columns last checked for completeness in April, 2022
