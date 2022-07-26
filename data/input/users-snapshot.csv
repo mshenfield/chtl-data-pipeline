@@ -209,7 +209,7 @@ Member ID,Confirmed?,Sex,Age,Member Created (M/D/YYYY),Start of first full membe
 1016,True,,,10/13/2017,10/14/2017,regular,10/14/2017,10/14/2018,False,False,,,,,,,,,,,,,,,,,,,,,,
 2324,True,male,,7/22/2019,7/21/2019,regular,7/21/2019,7/21/2020,False,False,,,,,,,,,,,,,,,,,,,,,,
 1364,False,female,,4/28/2018,4/28/2018,regular,4/28/2018,4/29/2019,False,False,,,['1'],Y,,,,,4.0,High,['5'],,,,,Y,,,0,0.0,Renter,2.0
-2202,False,male,,6/3/2019,6/2/2019,regular,6/5/2020,6/2/2021,False,False,,,,,,,,,,,,,,,,,,,,,,
+2202,False,male,,6/3/2019,6/2/2019,regular,7/24/2022,7/24/2023,False,False,,,,,,,,,,,,,,,,,,,,,,
 2370,False,,,8/14/2019,,Request_CheckIDAddressPhoneDOB,8/14/2019,,False,False,,,,,,,,,,,,,,,,,,,,,,
 2372,False,,,8/15/2019,,Request_CheckIDAddressPhoneDOB,8/14/2019,,False,False,,,,,,,,,,,,,,,,,,,,,,
 1817,False,,,11/15/2018,,Request_CheckIDAddressPhoneDOB,11/14/2018,,False,False,,,,,,,,,,,,,,,,,,,,,,
@@ -314,6 +314,7 @@ Member ID,Confirmed?,Sex,Age,Member Created (M/D/YYYY),Start of first full membe
 3140,False,,,5/6/2021,,Request_CheckIDAddressPhoneDOB,5/6/2021,,False,False,,,,,,,,,,,,,,,,,,,,,,
 706,True,,,5/30/2017,5/31/2017,regular,5/31/2017,5/31/2018,False,False,,,,,,,,,,,,,,,,,,,,,,
 729,False,,,6/11/2017,6/11/2017,regular,6/11/2017,6/11/2018,False,False,,,,,,,,,,,,,,,,,,,,,,
+3891,True,,24.0,7/26/2022,,Request_CheckIDAddressPhoneDOB,7/25/2022,,False,False,,,[],,,,,,3.0,Moderate,['5'],,,,,Y,,,,0.0,Renter,2.0
 3237,True,,,7/21/2021,7/20/2021,regular,7/20/2021,7/20/2023,False,False,,,,,,,,,,,,,,,,,,,,,,
 3605,False,,,3/15/2022,,Request_CheckIDAddressPhoneDOB,3/14/2022,,False,False,,,,,,,,,,,,,,,,,,,,,,
 3668,False,,,4/27/2022,,Request_CheckIDAddressPhoneDOB,4/26/2022,,False,False,,,,,,,,,,,,,,,,,,,,,,
@@ -1255,7 +1256,7 @@ phildoholic,True,,,2/27/2020,2/26/2020,regular,2/26/2020,2/27/2021,False,False,,
 2648,False,,,12/8/2019,12/8/2019,regular,12/8/2019,12/8/2020,False,False,,,,,,,,,,,,,,,,,,,,,,
 3670,True,,,4/27/2022,4/26/2022,regular,4/26/2022,4/26/2023,False,False,,,[],,,,,,,,[],,,,,,,,,,,
 3869,True,,,7/19/2022,7/20/2022,regular,7/20/2022,7/20/2023,False,False,,,,,,,,,,,,,,,,,,,,,,
-3884,False,,,7/22/2022,,Request_CheckIDAddressPhoneDOB,7/22/2022,,False,False,,,,,,,,,,,,,,,,,,,,,,
+3884,True,,,7/22/2022,,Request_CheckIDAddressPhoneDOB,7/22/2022,,False,False,,,,,,,,,,,,,,,,,,,,,,
 3535,True,,,1/31/2022,1/30/2022,regular,1/30/2022,1/30/2023,False,False,,,['1'],Y,,,,,4.0,High,['5'],,,,,Y,,,,0.0,Renter,
 93,True,female,,2/20/2016,,Request_CheckIDAddressPhoneDOB,2/20/2016,,False,False,,,,,,,,,,,,,,,,,,,,,,
 758,False,,,6/23/2017,,Request_CheckIDAddressPhoneDOB,6/22/2017,,False,False,,,,,,,,,,,,,,,,,,,,,,
@@ -1876,6 +1877,7 @@ janelle0601,False,female,,12/9/2017,12/9/2017,regular,12/9/2017,12/10/2018,False
 761,True,male,,6/24/2017,6/24/2017,regular,7/27/2019,7/3/2020,False,False,,,['4'],,,,Y,,5.0,Extremely High,['5'],,,,,Y,,,,1.0,Homeowner,
 3707,False,,,5/19/2022,5/18/2022,regular,5/18/2022,5/18/2023,False,False,,,,,,,,,,,,,,,,,,,,,,
 1915,False,male,,1/26/2019,1/26/2019,regular,1/26/2019,1/26/2020,False,False,,,['1'],Y,,,,,,,[],,,,,,,,,2.0,Not Specified,
+3890,True,,,7/25/2022,,Request_CheckIDAddressPhoneDOB,7/25/2022,,False,False,,,,,,,,,,,,,,,,,,,,,,
 251,True,female,,7/26/2016,7/31/2016,regular,7/31/2016,7/31/2017,False,False,,,[],,,,,,,,[],,,,,,,,,,,
 2669,False,,,12/28/2019,12/28/2019,regular,12/28/2019,12/28/2020,False,False,,,,,,,,,,,,,,,,,,,,,,
 1767,False,,,10/14/2018,10/14/2018,regular,2/29/2020,2/28/2021,False,False,,,['1'],Y,,,,,2.0,Low,['4'],,,,Y,,,,,0.0,Renter,1.0
@@ -2109,6 +2111,7 @@ janelle0601,False,female,,12/9/2017,12/9/2017,regular,12/9/2017,12/10/2018,False
 863,True,female,,8/10/2017,,Request_CheckIDAddressPhoneDOB,8/10/2017,,False,False,,,,,,,,,,,,,,,,,,,,,,
 1878,True,male,,1/2/2019,1/2/2019,regular,1/3/2021,1/5/2022,False,False,,,[],,,,,,4.0,High,['5'],,,,,Y,,,,0.0,Renter,2.0
 311,False,male,,9/8/2016,9/10/2016,regular,1/27/2018,1/27/2019,False,False,,,[],,,,,,,,[],,,,,,,,,,,
+3889,False,,,7/24/2022,7/24/2022,regular,7/24/2022,7/24/2023,False,False,,,,,,,,,,,,,,,,,,,,,,
 71,True,,,11/21/2015,,Request_CheckIDAddressPhoneDOB,11/21/2015,,False,False,,,,,,,,,,,,,,,,,,,,,,
 3559,True,,,2/14/2022,2/13/2022,regular,2/13/2022,2/13/2023,False,False,,,,,,,,,,,,,,,,,,,,,,
 2439,False,male,,9/7/2019,9/7/2019,regular,9/7/2019,9/7/2020,False,False,,,['1'],Y,,,,,4.0,High,['5'],,,,,Y,,,,0.0,Renter,2.0
@@ -2798,6 +2801,7 @@ wadephi,False,,,9/18/2016,9/18/2016,regular,9/18/2016,9/18/2018,False,False,,,['
 949,True,male,,9/11/2017,9/10/2017,regular,9/10/2017,9/10/2018,False,False,,,['1'],Y,,,,,4.0,High,['2'],,Y,,,,,,,1.0,Homeowner,1.0
 2038,True,,,3/30/2019,,Request_CheckIDAddressPhoneDOB,3/30/2019,,False,False,,,,,,,,,,,,,,,,,,,,,,
 3676,False,,,4/28/2022,4/27/2022,regular,4/27/2022,4/27/2023,False,False,,,,,,,,,,,,,,,,,,,,,,
+3888,False,,,7/24/2022,7/24/2022,regular,7/24/2022,7/24/2023,False,False,,,,,,,,,,,,,,,,,,,,,,
 2073,True,male,,4/15/2019,4/14/2019,regular,4/14/2019,4/14/2020,False,False,,,,,,,,,,,,,,,,,,,,,,
 875,False,male,,8/13/2017,8/13/2017,regular,8/13/2017,8/13/2018,False,False,,,,,,,,,,,,,,,,,,,,,,
 1555,True,female,,7/9/2018,7/29/2018,regular,7/29/2018,7/29/2019,False,False,,,[],,,,,,,,[],,,,,,,,,,,
@@ -2875,7 +2879,7 @@ marinaresto,False,female,,8/27/2017,8/27/2017,ExtremelyOverdueItems,1/15/2020,,F
 2206,False,male,,6/4/2019,6/3/2019,regular,6/3/2019,6/3/2020,False,False,,,,,,,,,,,,,,,,,,,,,,
 2950,False,,,9/5/2020,9/5/2020,regular,11/20/2021,11/20/2022,False,False,,,,,,,,,,,,,,,,,,,,,,
 2945,True,,,8/29/2020,8/29/2020,regular,8/29/2020,8/29/2021,False,False,,,,,,,,,,,,,,,,,,,,,,
-3505,True,,,1/16/2022,,Request_CheckIDAddressPhoneDOB,1/15/2022,,False,False,,,[],,,,,,,,[],,,,,,,,,,,
+3505,True,,,1/16/2022,7/24/2022,regular,7/24/2022,7/24/2023,False,False,,,[],,,,,,,,[],,,,,,,,,,,
 1284,True,,,3/23/2018,3/24/2018,regular,3/24/2018,3/24/2019,False,False,,,['4'],,,,Y,,3.0,Moderate,"['5', '7']",,,,,Y,,Y,,1.0,Homeowner,4.0
 1057,False,,,11/11/2017,,Request_CheckIDAddressPhoneDOB,11/11/2017,,False,False,,,,,,,,,,,,,,,,,,,,,,
 1135,False,male,,1/4/2018,1/3/2018,regular,1/3/2018,1/3/2019,False,False,,,,,,,,,,,,,,,,,,,,,,
