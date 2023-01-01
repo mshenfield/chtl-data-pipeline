@@ -10,6 +10,7 @@
 13,Rakes
 14,Metal Garden Rake
 17,Hand Rake
+19,Thatching Rake
 21,Leaf Rake
 25,Loppers
 26,Hand Pruner
@@ -99,6 +100,7 @@
 123,Sledgehammers
 124,Ball Peen Hammers
 126,Claw Hammers
+129,Framing Hammers
 130,Tack Hammers
 132,Ladders
 133,Step Ladders
@@ -131,7 +133,7 @@
 179,Hand Tool Sets
 180,Trimmers
 181,Manual Hedge Trimmers
-182,Misc
+182,Misc Hand Tools
 183,Edgers
 185,Manual Lawn Edger
 186,Manual Lawn Edger
@@ -167,6 +169,7 @@
 227,Rivet Tools
 228,Squeegees
 229,Dollies
+230,Hex Keys
 231,Mixers & Dispensers
 234,Watering Tools
 235,Cultivators
@@ -186,6 +189,7 @@
 253,Sharpeners
 254,Finishing Stones
 255,Drywall Tools
+256,Drywall Tool Sets
 257,Joint Knives
 258,Bucket Scoops
 260,Taping Knives
@@ -217,6 +221,7 @@
 295,Circular Saws
 297,Scroller Power Saws
 298,Corded Miter Saws
+299,Compound Miter Saw
 301,Jig Saws
 303,Table Saws
 304,Wet Tile Saws
@@ -224,6 +229,7 @@
 307,Corded Trimmers
 308,Electric Hedge Trimmers
 309,Electric Lawn Edger
+310,Electric String Trimmer
 313,Extension Cords
 314,Electric Chippers
 315,Buffers
@@ -266,281 +272,299 @@
 363,Handheld Vacuums
 364,Upright Vacuums
 368,Router Accessories
+370,Router Edge Guides
 375,Router Bits
+376,Straight Router Bits
 378,Molding Router Bits
 384,Corded Grinders
 385,Electric Nailers
 386,Steam Cleaners
 387,Carpet Steam Cleaners
-392,Cordless Power Tools
-393,Cordless Drills
-394,Flashlights
-395,Cordless Trimmers
-396,Cordless Saws
-397,Cordless Circular Saw
-398,Cordless Screwdrivers
-400,Cordless Vacuums
-401,Cordless Impact Drivers
-402,Cordless Tool Batteries
-403,12V Cordless Tool Batteries
-404,18V Cordless Tool Batteries
-405,20V Cordless Tool Batteries
-408,Cordless Hedge Trimmers
-411,Grinders
-412,Bench Grinders
-414,Angle Grinders
-415,Lathes
-416,Power Sharpeners
-419,Biscuit Joiners
-422,Power Tool Accessories
-423,Air & Pneumatic Tools
-424,Compressors
-425,Air Tool Sets
-426,Jacks
-428,House Jack
-429,Air Brad Nailers
-430,Air Finish Nailers
-431,Air Staplers
-435,Air Wrenches
-436,Air Sanders
-441,Bike Tools
-442,Bottom Bracket Tools
-444,Drive Train Tools
-446,Wheel Tools
-449,Bike Repair Stands
-451,Propane Torch Kit
-463,Meters & Diagnostics
-465,Multimeters
-466,Power Meters
-467,Non-logging Power Meters
-489,Distance Meters
-490,Detectors
-497,Tachometers
-505,Wheelbarrow
-506,Safety Equipment
-507,Work Gloves
-508,Protective Goggles
-509,Respirators
-510,Safety Glasses
-515,Ear Muffs
-524,Automotive Tools
-525,Jack Stands
-526,Automotive Jacks
-527,Garage Jacks
-529,Automotive Ramps
-530,Automotive Pressure Gauges
-535,Post Hole Digger
-542,Garden Tools
-543,Weeders
-546,Hoes
-548,Hand Seeders
-554,Hand Tillers
-556,Planting Templates
-562,Garden Hoses
-566,Farm Tools
-586,Manure Spreaders
-600,Chainsaws
-607,Pruning Saw
-608,Pruning Shears
-614,Hand Pump Orchard Sprayers
-624,Welders
-633,Welding Gloves
-636,Welding Helmets
-641,MIG Welders
-655,Chains
-656,Bungee Cords
-658,Ropes
-659,Flooring Tools
-660,Carpet Tools
-662,Carpet Roller
-664,Tile Cutters
-665,Hand Tile Cutter
-666,Tile Nipper
-667,Laminate Flooring Cutters
-668,Kitchen & Dining
-669,"Canning, Preserving & Homebrew"
-670,Appliances
-671,Cook's Tools
-679,Other Kitchen & Serving
-680,Food Service Displays
-768,Glassware & Drinkware
-770,Glassware
-778,Ceramic Mugs
-782,Food Storage
-783,Kitchen Gadgets
-786,Plates & Bowls
-796,Small Appliances
-797,Grain Mills
-799,Ice Cream Makers
-800,Bread Makers
-801,Instant Pots
-802,Slow Cookers
-803,Pots & Pans
-805,Induction Cooktops
-820,Books
-829,Magazines
-830,DVD
-833,CD-ROM
-835,Props
-852,Electronics
-853,Lights
-854,Work Lights
-855,Clamp Lights
-856,Hanging Lights
-863,Network Equipment
-864,Network Switches
-868,Network Cables
-872,Controllers
-873,Video Game Accessories
-874,Computers
-875,Laptop Computers
-877,Windows Laptops
-881,Keyboards & Mice
-890,Monitors and Displays
-891,Computer Power Adapters
-894,Computer Cables
-895,USB-A Cables
-896,USB-C Cables
-909,Printers & Scanners
-910,3D Printers
-912,Label Makers
-916,Black & White Laser Printers
-917,Inkjet Printers
-918,Multifunction Inkjet Printers
-926,Video & Photography
-931,Projectors
-937,TVs
-946,Video Adapters
-949,Camera Lighting Equipment
-958,Projector Screens
-960,Camera Tripods
-961,Video Switchers
-965,Video Players & Recorders
-967,Blu-ray Players
-977,Sensors
-990,Telephones
-1051,iPhones
-1053,Other Electronic Devices
-1071,Barcode Scanners
-1078,USB Flash Drives & Memory Cards
-1079,VR Gear
-1090,Power
-1091,Power Adapters
-1092,AC Adapters
-1096,Power Strips
-1097,Surge Protectors
-1098,Power Plug & Socket Adapters
-1100,Microphones
-1110,Speakers & Amplifiers
-1122,Audio Cables
-1136,Audio Recording Gear
-1140,Audio Mixers
-1145,Public Address Systems
-1146,Microphone Stands
-1193,Sports & Outdoors
-1201,Snowboards
-1205,Goggles
-1207,Boats & Rafts
-1208,Skates
-1209,Camping & Hiking
-1210,Tents
-1213,Hiking Backpacks
-1216,Camp Stoves
-1217,Two Burner Camp Stoves
-1220,Liquid Fuel Stoves
-1221,Water Bottles
-1222,Sleeping Bags
-1224,Sleeping Pads
-1225,Foam Sleeping Pads
-1226,Air Mattress Sleeping Pads
-1228,Camping Tarps
-1236,Camping & Hiking Storage
-1239,Camping Chairs
-1251,Telescopes & Binoculars
-1259,Telescopes
-1267,Sports & Outdoor Accessories
-1269,Headlamps
-1272,Winter Sports
-1291,Climbing & Mountaineering
-1297,Climbing Harnesses
-1301,Outdoors Safety
-1305,Personal Flotation Devices
-1319,Bicycle Accessories
-1323,Bicycle Trailers
-1326,Rafts
-1344,Kayaking Gear
-1348,Wetsuits
-1356,BBQ Grills
-1360,Marine & Fishing
-1365,Traps & Pots
-1511,Guitars
-1597,Musical Instrument Accessories
-1624,Vehicles & Trailers
-1625,Cars
-1640,Hitches & Towing Accessories
-1642,Ratchet Straps
-1647,Earthmoving Equipment
-1669,Clothing
-1716,Boots
-1723,Jewelry & Accessories
-1749,Helmets
-1750,Hard Hats
-1752,Eye Protection
-1754,Hats
-1764,Handbags
-1766,Totes
-1777,Toys & Games
-1778,Games
-1779,Board Games
-1783,Other Games
-1784,Toys
-1788,Activities
-1794,Furniture & Spaces
-1796,Offices
-1797,Gardens
-1801,Chairs
-1802,Folding Chairs
-1804,Tables
-1805,Folding Tables
-1807,Storage Furniture
-1808,Miscellaneous Furniture
-1810,Keys
-1811,Storage & Organization
-1818,Storage Bins
-1819,Waste & Trash Baskets
-1821,Ironing Boards
-1824,Steam Irons
-1827,Moving Supplies
-1828,Moving Blankets
-1832,Moving Carts
-1838,Cleaning
-1840,Push Brooms
-1841,House Broom
-1842,Brooms
-1889,Pillows
-1893,Pet Carriers
-1899,Medical Equipment
-1912,Thermometers
-1914,Walkers
-1915,Knee Wheelers & Scooters
-1916,Rollators & Rolling Walkers
-1917,Canes
-1920,Shower Chairs & Benches
-1923,Bathroom Grab Bars
-1927,Knee Braces
-1928,Walking Boots & Braces
-1943,Medical Trauma Kit
-1968,Art
-1972,Fiber Arts
-1973,Ceramic & Glass Arts
-1974,Wood & Metal Arts
-1975,Materials
-1983,Wood
-2156,Research Equipment
-2158,Microscopes
-2170,General Measurement
-2171,Hobbies & Crafts
-2172,Sewing Machines
-2179,Hobby & Craft Kits
-2180,Scissors
-2223,Beverage Service Equipment
+393,Cordless Power Tools
+394,Cordless Drills
+395,Flashlights
+396,Cordless Trimmers
+397,Cordless Saws
+398,Cordless Circular Saw
+399,Cordless Screwdrivers
+401,Cordless Vacuums
+402,Cordless Impact Drivers
+403,Cordless Tool Batteries
+404,12V Cordless Tool Batteries
+405,18V Cordless Tool Batteries
+406,20V Cordless Tool Batteries
+407,Cordless Hammer Drills
+409,Cordless Hedge Trimmers
+413,Grinders
+414,Bench Grinders
+416,Angle Grinders
+417,Lathes
+418,Power Sharpeners
+421,Biscuit Joiners
+424,Power Tool Accessories
+425,Air & Pneumatic Tools
+426,Compressors
+427,Air Tool Sets
+428,Jacks
+430,House Jack
+431,Air Brad Nailers
+432,Air Finish Nailers
+433,Air Staplers
+437,Air Wrenches
+438,Air Sanders
+444,Bike Tools
+445,Bottom Bracket Tools
+447,Drive Train Tools
+449,Wheel Tools
+452,Bike Repair Stands
+454,Propane Torch Kit
+466,Meters & Diagnostics
+468,Multimeters
+469,Power Meters
+470,Non-logging Power Meters
+492,Distance Meters
+493,Detectors
+500,Tachometers
+508,Wheelbarrow
+509,Safety Equipment
+510,Work Gloves
+511,Protective Goggles
+512,Respirators
+513,Safety Glasses
+518,Ear Muffs
+527,Automotive Tools
+528,Jack Stands
+529,Automotive Jacks
+530,Garage Jacks
+532,Automotive Ramps
+533,Automotive Pressure Gauges
+538,Post Hole Digger
+545,Garden Tools
+546,Weeders
+549,Hoes
+551,Hand Seeders
+557,Hand Tillers
+559,Planting Templates
+565,Garden Hoses
+570,Farm Tools
+590,Manure Spreaders
+605,Chainsaws
+612,Pruning Saw
+613,Pruning Shears
+619,Hand Pump Orchard Sprayers
+629,Welders
+638,Welding Gloves
+641,Welding Helmets
+646,MIG Welders
+660,Chains
+661,Bungee Cords
+663,Ropes
+664,Flooring Tools
+665,Carpet Tools
+667,Carpet Roller
+669,Tile Cutters
+670,Hand Tile Cutter
+671,Tile Nipper
+672,Laminate Flooring Cutters
+674,Kitchen & Dining
+675,"Canning, Preserving & Homebrew"
+676,Appliances
+677,Cook's Tools
+685,Other Kitchen & Serving
+686,Food Service Displays
+774,Glassware & Drinkware
+776,Glassware
+784,Ceramic Mugs
+788,Food Storage
+789,Kitchen Gadgets
+792,Plates & Bowls
+794,Dinner Plates
+802,Small Appliances
+803,Grain Mills
+805,Ice Cream Makers
+806,Bread Makers
+807,Instant Pots
+808,Slow Cookers
+809,Pots & Pans
+811,Induction Cooktops
+821,Kitchen Appliances
+826,Books
+836,Magazines
+837,DVD
+840,CD-ROM
+858,Electronics
+859,Lights
+860,Work Lights
+861,Clamp Lights
+862,Hanging Lights
+869,Network Equipment
+870,Network Switches
+874,Network Cables
+878,Controllers
+879,Video Game Accessories
+880,Computers
+881,Laptop Computers
+883,Windows Laptops
+887,Keyboards & Mice
+888,Wired Keyboards
+889,Wired Mice
+896,Monitors and Displays
+897,Computer Power Adapters
+900,Computer Cables
+901,USB-A Cables
+902,USB-C Cables
+903,Displayport Cables
+914,USB Chargers
+915,Printers & Scanners
+916,3D Printers
+917,Printer Accessories
+918,Label Makers
+922,Black & White Laser Printers
+923,Inkjet Printers
+924,Multifunction Inkjet Printers
+932,Video & Photography
+937,Projectors
+943,TVs
+947,HDMI Cables
+952,Video Adapters
+955,Camera Lighting Equipment
+964,Projector Screens
+966,Camera Tripods
+967,Video Switchers
+971,Video Players & Recorders
+973,Blu-ray Players
+983,Sensors
+996,Telephones
+1057,iPhones
+1059,Other Electronic Devices
+1074,Shredders
+1077,Barcode Scanners
+1084,USB Flash Drives & Memory Cards
+1085,VR Gear
+1096,Power
+1097,Power Adapters
+1098,AC Adapters
+1102,Power Strips
+1103,Surge Protectors
+1104,Power Plug & Socket Adapters
+1106,Microphones
+1116,Speakers & Amplifiers
+1128,Audio Cables
+1142,Audio Recording Gear
+1146,Audio Mixers
+1151,Public Address Systems
+1152,Microphone Stands
+1200,Sports & Outdoors
+1208,Snowboards
+1212,Goggles
+1214,Boats & Rafts
+1215,Skates
+1216,Camping & Hiking
+1217,Tents
+1220,Hiking Backpacks
+1223,Camp Stoves
+1224,Two Burner Camp Stoves
+1227,Liquid Fuel Stoves
+1228,Water Bottles
+1229,Sleeping Bags
+1231,Sleeping Pads
+1232,Foam Sleeping Pads
+1233,Air Mattress Sleeping Pads
+1235,Camping Tarps
+1243,Camping & Hiking Storage
+1246,Camping Chairs
+1258,Telescopes & Binoculars
+1266,Telescopes
+1274,Sports & Outdoor Accessories
+1276,Headlamps
+1279,Winter Sports
+1298,Climbing & Mountaineering
+1304,Climbing Harnesses
+1308,Outdoors Safety
+1312,Personal Flotation Devices
+1326,Bicycle Accessories
+1330,Bicycle Trailers
+1333,Rafts
+1351,Kayaking Gear
+1355,Wetsuits
+1363,BBQ Grills
+1367,Marine & Fishing
+1372,Traps & Pots
+1531,Guitars
+1617,Musical Instrument Accessories
+1644,Vehicles & Trailers
+1645,Cars
+1660,Hitches & Towing Accessories
+1662,Ratchet Straps
+1667,Earthmoving Equipment
+1689,Clothing
+1735,Boots
+1742,Jewelry & Accessories
+1768,Helmets
+1769,Hard Hats
+1771,Eye Protection
+1773,Hats
+1783,Handbags
+1785,Totes
+1802,Toys & Games
+1803,Games
+1804,Board Games
+1808,Other Games
+1809,Toys
+1813,Activities
+1819,Furniture & Spaces
+1821,Offices
+1822,Gardens
+1826,Chairs
+1827,Folding Chairs
+1829,Tables
+1830,Folding Tables
+1832,Storage Furniture
+1833,Miscellaneous Furniture
+1835,Keys
+1836,Storage & Organization
+1843,Storage Bins
+1844,Waste & Trash Baskets
+1846,Ironing Boards
+1849,Steam Irons
+1852,Moving Supplies
+1853,Moving Blankets
+1857,Moving Carts
+1863,Cleaning
+1865,Push Brooms
+1866,House Broom
+1867,Brooms
+1875,Other Props
+1919,Pillows
+1923,Pet Carriers
+1927,Yardshares
+1931,Medical Equipment
+1944,Thermometers
+1946,Walkers
+1947,Knee Wheelers & Scooters
+1948,Rollators & Rolling Walkers
+1949,Canes
+1954,Shower Chairs & Benches
+1960,Bathroom Grab Bars
+1964,Knee Braces
+1965,Walking Boots & Braces
+1980,Medical Trauma Kit
+2017,Art
+2021,Fiber Arts
+2022,Ceramic & Glass Arts
+2023,Wood & Metal Arts
+2024,Materials
+2032,Wood
+2221,Research Equipment
+2223,Microscopes
+2235,General Measurement
+2236,Hobbies & Crafts
+2237,Sewing Machines
+2244,Hobby & Craft Kits
+2245,Scissors
+2248,Electrical Equipment
+2275,Recycling & Waste Management
+2292,Beverage Service Equipment
+2306,Fan Heaters
+2309,Office & Industrial
+2311,Cubicles
