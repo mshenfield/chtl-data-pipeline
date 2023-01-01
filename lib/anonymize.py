@@ -12,12 +12,12 @@ CHECKED_OUT_LOANS_COLS = (
     "Checked In","Due Date", "Late Fees to Date","Renewal",
 )
 
-# All the columns. List of columns last checked for completeness in April, 2022
+# All the columns. List of columns last checked for completeness in Jan, 2022
 INVENTORY_COLS = (
     "Item ID","Item Type","Status(es)","Name","Additional Image","Agreement that must be signed to checkout the item",
     "Amount / Fee","Attachment","Author","Between Buffer Days","Categories","Color","Condition","Daily Late Fee","Date Purchased",
     "Default Loan Length","Description","Dimensions (WxHxD)","Eco Rating","Embodied Carbon","Emission Factor","Featured",
-    "Floating","Goes Home","Grace period on late fees (in days)","Historical Cost","Image","Keywords","Location Code","Maintenance",
+    "Floating","Goes Home","Grace period on late fees (in days)","Historical Cost","Image","Keywords","Location Code",
     "Maintenance Plans","Manufacturer","Max Frequency","Max Frequency Units","Max Output","Maximum number of renewals",
     "Maximum number that may be reserved","Maximum percentage of inventory that may be reserved","Maximum Reservation Length",
     "Min Frequency","Min Frequency Units","Model","Now Buffer Days","Price to Purchase","Product Code / UPC","Publisher",

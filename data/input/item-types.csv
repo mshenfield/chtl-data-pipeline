@@ -181,7 +181,7 @@ Wonder Bar,Pry Bars & Crowbars,Wonder Bar -> Pry Bars & Crowbars -> Hand Tools -
 Hand Tool Sets,Hand Tools,Hand Tool Sets -> Hand Tools -> Tools
 Trimmers,Hand Tools,Trimmers -> Hand Tools -> Tools
 Manual Hedge Trimmers,Trimmers,Manual Hedge Trimmers -> Trimmers -> Hand Tools -> Tools
-Misc,Hand Tools,Misc -> Hand Tools -> Tools
+Misc Hand Tools,Hand Tools,Misc Hand Tools -> Hand Tools -> Tools
 Edgers,Hand Tools,Edgers -> Hand Tools -> Tools
 Cement Edger,Edgers,Cement Edger -> Edgers -> Hand Tools -> Tools
 Manual Lawn Edger,Edgers,Manual Lawn Edger -> Edgers -> Hand Tools -> Tools
@@ -331,7 +331,7 @@ Power Planer,Sanders & Planers,Power Planer -> Sanders & Planers -> Corded & Plu
 Power Sanders,Sanders & Planers,Power Sanders -> Sanders & Planers -> Corded & Plug-in -> Power Tools -> Tools
 Combo Power Sanders,Sanders & Planers,Combo Power Sanders -> Sanders & Planers -> Corded & Plug-in -> Power Tools -> Tools
 Reciprocating Saw,Corded & Plug-in,Reciprocating Saw -> Corded & Plug-in -> Power Tools -> Tools
-String Trimmer,Corded & Plug-in,String Trimmer -> Corded & Plug-in -> Power Tools -> Tools
+String Trimmers,Corded & Plug-in,String Trimmers -> Corded & Plug-in -> Power Tools -> Tools
 Soldering & Heat Guns,Corded & Plug-in,Soldering & Heat Guns -> Corded & Plug-in -> Power Tools -> Tools
 Soldering Iron,Soldering & Heat Guns,Soldering Iron -> Soldering & Heat Guns -> Corded & Plug-in -> Power Tools -> Tools
 Heat Gun,Soldering & Heat Guns,Heat Gun -> Soldering & Heat Guns -> Corded & Plug-in -> Power Tools -> Tools
@@ -391,6 +391,7 @@ Disinfecting Steam Cleaners,Steam Cleaners,Disinfecting Steam Cleaners -> Steam 
 Multi-surface Steam Cleaners,Steam Cleaners,Multi-surface Steam Cleaners -> Steam Cleaners -> Corded & Plug-in -> Power Tools -> Tools
 Tile Steam Cleaners,Steam Cleaners,Tile Steam Cleaners -> Steam Cleaners -> Corded & Plug-in -> Power Tools -> Tools
 Electric Staple Guns,Corded & Plug-in,Electric Staple Guns -> Corded & Plug-in -> Power Tools -> Tools
+Electric Jackhammers,Corded & Plug-in,Electric Jackhammers -> Corded & Plug-in -> Power Tools -> Tools
 Cordless Power Tools,Power Tools,Cordless Power Tools -> Power Tools -> Tools
 Cordless Drills,Cordless Power Tools,Cordless Drills -> Cordless Power Tools -> Power Tools -> Tools
 Flashlights,Cordless Power Tools,Flashlights -> Cordless Power Tools -> Power Tools -> Tools
@@ -410,6 +411,7 @@ Cordless Grinders,Cordless Power Tools,Cordless Grinders -> Cordless Power Tools
 Cordless Hedge Trimmers,Cordless Power Tools,Cordless Hedge Trimmers -> Cordless Power Tools -> Power Tools -> Tools
 Cordless Sanders,Cordless Power Tools,Cordless Sanders -> Cordless Power Tools -> Power Tools -> Tools
 Cordless Routers,Cordless Power Tools,Cordless Routers -> Cordless Power Tools -> Power Tools -> Tools
+Cordless Jackhammers,Cordless Power Tools,Cordless Jackhammers -> Cordless Power Tools -> Power Tools -> Tools
 Grinders,Power Tools,Grinders -> Power Tools -> Tools
 Bench Grinders,Grinders,Bench Grinders -> Grinders -> Power Tools -> Tools
 Die Grinders,Grinders,Die Grinders -> Grinders -> Power Tools -> Tools
@@ -440,6 +442,7 @@ Air Torque Wrenches,Air & Pneumatic Tools,Air Torque Wrenches -> Air & Pneumatic
 Air Hammers with Chisel,Air & Pneumatic Tools,Air Hammers with Chisel -> Air & Pneumatic Tools -> Tools
 Air Cut-Off Tools,Air & Pneumatic Tools,Air Cut-Off Tools -> Air & Pneumatic Tools -> Tools
 Air Disc Sanders,Air & Pneumatic Tools,Air Disc Sanders -> Air & Pneumatic Tools -> Tools
+Pneumatic Jackhammers,Air & Pneumatic Tools,Pneumatic Jackhammers -> Air & Pneumatic Tools -> Tools
 Bike Tools,Tools,Bike Tools -> Tools
 Bottom Bracket Tools,Bike Tools,Bottom Bracket Tools -> Bike Tools -> Tools
 "Brakes, Housing & Cable Tools",Bike Tools,"Brakes, Housing & Cable Tools -> Bike Tools -> Tools"
@@ -565,6 +568,7 @@ Garden Hoses,Garden Tools,Garden Hoses -> Garden Tools -> Tools
 Animal Traps,Garden Tools,Animal Traps -> Garden Tools -> Tools
 Cage Traps,Animal Traps,Cage Traps -> Animal Traps -> Garden Tools -> Tools
 Garden Gloves,Garden Tools,Garden Gloves -> Garden Tools -> Tools
+Dibbles,Garden Tools,Dibbles -> Garden Tools -> Tools
 Farm Tools,Tools,Farm Tools -> Tools
 Tractors,Farm Tools,Tractors -> Farm Tools -> Tools
 Beekeeping,Farm Tools,Beekeeping -> Farm Tools -> Tools
@@ -598,6 +602,7 @@ Disc Plow,Tractor Accessories,Disc Plow -> Tractor Accessories -> Farm Tools -> 
 Tractor Mounted Bed Shaper,Tractor Accessories,Tractor Mounted Bed Shaper -> Tractor Accessories -> Farm Tools -> Tools
 Tractor Forks,Tractor Accessories,Tractor Forks -> Tractor Accessories -> Farm Tools -> Tools
 Tractor Buckets,Tractor Accessories,Tractor Buckets -> Tractor Accessories -> Farm Tools -> Tools
+Seed Drills,Tractor Accessories,Seed Drills -> Tractor Accessories -> Farm Tools -> Tools
 Tree & Orchard Care Tools,Tools,Tree & Orchard Care Tools -> Tools
 Chainsaws,Tree & Orchard Care Tools,Chainsaws -> Tree & Orchard Care Tools -> Tools
 Electric 12 in Chainsaws,Chainsaws,Electric 12 in Chainsaws -> Chainsaws -> Tree & Orchard Care Tools -> Tools
@@ -829,13 +834,13 @@ Audio CD Books,Books,Audio CD Books -> Books -> Books & Media
 School Binding Books,Books,School Binding Books -> Books -> Books & Media
 Audiobooks,Books,Audiobooks -> Books -> Books & Media
 Reference Guides,Books,Reference Guides -> Books -> Books & Media
+Board Books,Books,Board Books -> Books -> Books & Media
 Magazines,Books & Media,Magazines -> Books & Media
 DVD,Books & Media,DVD -> Books & Media
 Blu-ray,Books & Media,Blu-ray -> Books & Media
 Audio CDs,Books & Media,Audio CDs -> Books & Media
 CD-ROM,Books & Media,CD-ROM -> Books & Media
 Media Files,Books & Media,Media Files -> Books & Media
-Props,Books & Media,Props -> Books & Media
 Imagery,Books & Media,Imagery -> Books & Media
 Bobble Heads,Imagery,Bobble Heads -> Imagery -> Books & Media
 VHS,Books & Media,VHS -> Books & Media
@@ -1465,6 +1470,9 @@ STEAM Kits,Education Kits,STEAM Kits -> Education Kits -> Education
 Literacy Kits,Education Kits,Literacy Kits -> Education Kits -> Education
 Educational Equipment,Education,Educational Equipment -> Education
 Training Materials,Education,Training Materials -> Education
+Professional Learning,Education,Professional Learning -> Education
+Resource Kits,Education,Resource Kits -> Education
+Assessments,Education,Assessments -> Education
 Music,root,Music
 Woodwind Instruments,Music,Woodwind Instruments -> Music
 Flutes,Woodwind Instruments,Flutes -> Woodwind Instruments -> Music
@@ -1681,7 +1689,6 @@ Rooftop Bike Carriers,Cargo Carriers,Rooftop Bike Carriers -> Cargo Carriers -> 
 Rooftop Ski Carriers,Cargo Carriers,Rooftop Ski Carriers -> Cargo Carriers -> Vehicles & Trailers
 Carts & Trolleys,Vehicles & Trailers,Carts & Trolleys -> Vehicles & Trailers
 Clothing,root,Clothing
-Halloween Costumes,Clothing,Halloween Costumes -> Clothing
 Pants,Clothing,Pants -> Clothing
 Waterproof Rain Pants,Pants,Waterproof Rain Pants -> Pants -> Clothing
 Jeans,Pants,Jeans -> Pants -> Clothing
@@ -1788,6 +1795,12 @@ Hoodies,Clothing,Hoodies -> Clothing
 Wigs,"Wigs, Weaves, & Extensions","Wigs -> Wigs, Weaves, & Extensions -> Clothing"
 Hair Weaves,"Wigs, Weaves, & Extensions","Hair Weaves -> Wigs, Weaves, & Extensions -> Clothing"
 Hair Extensions,"Wigs, Weaves, & Extensions","Hair Extensions -> Wigs, Weaves, & Extensions -> Clothing"
+Costumes,Clothing,Costumes -> Clothing
+Halloween Costumes,Costumes,Halloween Costumes -> Costumes -> Clothing
+Seasonal Costumes,Costumes,Seasonal Costumes -> Costumes -> Clothing
+Holiday Costumes,Costumes,Holiday Costumes -> Costumes -> Clothing
+Themed Costumes,Costumes,Themed Costumes -> Costumes -> Clothing
+Fancy Dress Costumes,Costumes,Fancy Dress Costumes -> Costumes -> Clothing
 Toys & Games,root,Toys & Games
 Games,Toys & Games,Games -> Toys & Games
 Board Games,Games,Board Games -> Games -> Toys & Games
@@ -1861,6 +1874,7 @@ Suitcases,Luggage,Suitcases -> Luggage -> Furniture & Spaces
 Garment Bags,Luggage,Garment Bags -> Luggage -> Furniture & Spaces
 Luggage Sets,Luggage,Luggage Sets -> Luggage -> Furniture & Spaces
 Stage & Screen,Furniture & Spaces,Stage & Screen -> Furniture & Spaces
+Other Props,Stage & Screen,Other Props -> Stage & Screen -> Furniture & Spaces
 Scenery & Sets,Stage & Screen,Scenery & Sets -> Stage & Screen -> Furniture & Spaces
 Studio & Soundstage Scenery,Scenery & Sets,Studio & Soundstage Scenery -> Scenery & Sets -> Stage & Screen -> Furniture & Spaces
 Stage Scenery,Scenery & Sets,Stage Scenery -> Scenery & Sets -> Stage & Screen -> Furniture & Spaces
@@ -1888,12 +1902,12 @@ Stage Access Ramps & Stairs,Structure & Staging,Stage Access Ramps & Stairs -> S
 Special Effects Equipment,Structure & Staging,Special Effects Equipment -> Structure & Staging -> Stage & Screen -> Furniture & Spaces
 Flight Cases & Storage,Structure & Staging,Flight Cases & Storage -> Structure & Staging -> Stage & Screen -> Furniture & Spaces
 Portable Stages,Structure & Staging,Portable Stages -> Structure & Staging -> Stage & Screen -> Furniture & Spaces
-Costumes,Stage & Screen,Costumes -> Stage & Screen -> Furniture & Spaces
-Stage & Screen Costumes,Costumes,Stage & Screen Costumes -> Costumes -> Stage & Screen -> Furniture & Spaces
-Dance Costumes,Costumes,Dance Costumes -> Costumes -> Stage & Screen -> Furniture & Spaces
-Panto Costume,Costumes,Panto Costume -> Costumes -> Stage & Screen -> Furniture & Spaces
-Period Costumes,Costumes,Period Costumes -> Costumes -> Stage & Screen -> Furniture & Spaces
-Parade & Carnival Costumes,Costumes,Parade & Carnival Costumes -> Costumes -> Stage & Screen -> Furniture & Spaces
+Stage & Screen Costumes,Stage & Screen,Stage & Screen Costumes -> Stage & Screen -> Furniture & Spaces
+Other Stage & Screen Costumes,Stage & Screen Costumes,Other Stage & Screen Costumes -> Stage & Screen Costumes -> Stage & Screen -> Furniture & Spaces
+Dance Costumes,Stage & Screen Costumes,Dance Costumes -> Stage & Screen Costumes -> Stage & Screen -> Furniture & Spaces
+Panto Costume,Stage & Screen Costumes,Panto Costume -> Stage & Screen Costumes -> Stage & Screen -> Furniture & Spaces
+Period Costumes,Stage & Screen Costumes,Period Costumes -> Stage & Screen Costumes -> Stage & Screen -> Furniture & Spaces
+Parade & Carnival Costumes,Stage & Screen Costumes,Parade & Carnival Costumes -> Stage & Screen Costumes -> Stage & Screen -> Furniture & Spaces
 Scenic Materials,Stage & Screen,Scenic Materials -> Stage & Screen -> Furniture & Spaces
 Surplus Scenic Materials,Scenic Materials,Surplus Scenic Materials -> Scenic Materials -> Stage & Screen -> Furniture & Spaces
 Reclaimed StageÂ Materials,Scenic Materials,Reclaimed StageÂ Materials -> Scenic Materials -> Stage & Screen -> Furniture & Spaces
@@ -1936,8 +1950,13 @@ Knee Wheelers & Scooters,Walking Aids,Knee Wheelers & Scooters -> Walking Aids -
 Rollators & Rolling Walkers,Walking Aids,Rollators & Rolling Walkers -> Walking Aids -> Medical Equipment
 Canes,Walking Aids,Canes -> Walking Aids -> Medical Equipment
 Crutches,Walking Aids,Crutches -> Walking Aids -> Medical Equipment
+Bariatric Rollators,Walking Aids,Bariatric Rollators -> Walking Aids -> Medical Equipment
+Bariatric Walkers,Walking Aids,Bariatric Walkers -> Walking Aids -> Medical Equipment
 Bathroom Safety,Medical Equipment,Bathroom Safety -> Medical Equipment
 Shower Chairs & Benches,Bathroom Safety,Shower Chairs & Benches -> Bathroom Safety -> Medical Equipment
+Shower Seats,Shower Chairs & Benches,Shower Seats -> Shower Chairs & Benches -> Bathroom Safety -> Medical Equipment
+Shower Transfer Benches,Shower Chairs & Benches,Shower Transfer Benches -> Shower Chairs & Benches -> Bathroom Safety -> Medical Equipment
+Sliding Transfer Benches,Shower Chairs & Benches,Sliding Transfer Benches -> Shower Chairs & Benches -> Bathroom Safety -> Medical Equipment
 Raised Toilet Seats,Bathroom Safety,Raised Toilet Seats -> Bathroom Safety -> Medical Equipment
 Bath Lifts,Bathroom Safety,Bath Lifts -> Bathroom Safety -> Medical Equipment
 Bathroom Grab Bars,Bathroom Safety,Bathroom Grab Bars -> Bathroom Safety -> Medical Equipment
@@ -1968,12 +1987,22 @@ Oxygen (O2) Bottles,Oxygen Equipment,Oxygen (O2) Bottles -> Oxygen Equipment -> 
 O2 (Oxygen) Regulators,Oxygen Equipment,O2 (Oxygen) Regulators -> Oxygen Equipment -> Medical Equipment
 Hospital Beds & Accessories,Medical Equipment,Hospital Beds & Accessories -> Medical Equipment
 Hospital Beds,Hospital Beds & Accessories,Hospital Beds -> Hospital Beds & Accessories -> Medical Equipment
+Semi-Electric Hospital Beds,Hospital Beds,Semi-Electric Hospital Beds -> Hospital Beds -> Hospital Beds & Accessories -> Medical Equipment
+Fully Electric Hospital Beds,Hospital Beds,Fully Electric Hospital Beds -> Hospital Beds -> Hospital Beds & Accessories -> Medical Equipment
 Hospital Bed Mattresses,Hospital Beds & Accessories,Hospital Bed Mattresses -> Hospital Beds & Accessories -> Medical Equipment
+Standard Hospital Bed Mattresses,Hospital Bed Mattresses,Standard Hospital Bed Mattresses -> Hospital Bed Mattresses -> Hospital Beds & Accessories -> Medical Equipment
+Air Mattress Overlays,Hospital Bed Mattresses,Air Mattress Overlays -> Hospital Bed Mattresses -> Hospital Beds & Accessories -> Medical Equipment
+Gel Mattress Overlays,Hospital Bed Mattresses,Gel Mattress Overlays -> Hospital Bed Mattresses -> Hospital Beds & Accessories -> Medical Equipment
+Hospital Bed Air Mattresses,Hospital Bed Mattresses,Hospital Bed Air Mattresses -> Hospital Bed Mattresses -> Hospital Beds & Accessories -> Medical Equipment
 Hospital Bed Sheet Sets,Hospital Beds & Accessories,Hospital Bed Sheet Sets -> Hospital Beds & Accessories -> Medical Equipment
 Hospital Bed Rails,Hospital Beds & Accessories,Hospital Bed Rails -> Hospital Beds & Accessories -> Medical Equipment
 Hospital Overbed Tables,Hospital Beds & Accessories,Hospital Overbed Tables -> Hospital Beds & Accessories -> Medical Equipment
 Bed Rails,Medical Equipment,Bed Rails -> Medical Equipment
 Patient Lifts,Medical Equipment,Patient Lifts -> Medical Equipment
+Manual Hoyer Lifts,Patient Lifts,Manual Hoyer Lifts -> Patient Lifts -> Medical Equipment
+Power Hoyer Lifts,Patient Lifts,Power Hoyer Lifts -> Patient Lifts -> Medical Equipment
+Manual Sit to Stand Lifts,Patient Lifts,Manual Sit to Stand Lifts -> Patient Lifts -> Medical Equipment
+Power Sit to Stand Lifts,Patient Lifts,Power Sit to Stand Lifts -> Patient Lifts -> Medical Equipment
 Wheelchairs & Accessories,Medical Equipment,Wheelchairs & Accessories -> Medical Equipment
 Wheelchairs,Wheelchairs & Accessories,Wheelchairs -> Wheelchairs & Accessories -> Medical Equipment
 Electric Wheelchairs,Wheelchairs,Electric Wheelchairs -> Wheelchairs -> Wheelchairs & Accessories -> Medical Equipment
@@ -1981,6 +2010,8 @@ Manual Wheelchairs,Wheelchairs,Manual Wheelchairs -> Wheelchairs -> Wheelchairs 
 Transport Wheelchairs,Wheelchairs,Transport Wheelchairs -> Wheelchairs -> Wheelchairs & Accessories -> Medical Equipment
 Pediatric Wheelchairs,Wheelchairs,Pediatric Wheelchairs -> Wheelchairs -> Wheelchairs & Accessories -> Medical Equipment
 Sports Wheelchairs,Wheelchairs,Sports Wheelchairs -> Wheelchairs -> Wheelchairs & Accessories -> Medical Equipment
+Reclining High Back Wheelchairs,Wheelchairs,Reclining High Back Wheelchairs -> Wheelchairs -> Wheelchairs & Accessories -> Medical Equipment
+Tilt in Space Wheelchairs,Wheelchairs,Tilt in Space Wheelchairs -> Wheelchairs -> Wheelchairs & Accessories -> Medical Equipment
 Wheelchair Ramps,Wheelchairs & Accessories,Wheelchair Ramps -> Wheelchairs & Accessories -> Medical Equipment
 Wheelchair Cushions,Wheelchairs & Accessories,Wheelchair Cushions -> Wheelchairs & Accessories -> Medical Equipment
 Disposable Medical Items,Medical Equipment,Disposable Medical Items -> Medical Equipment
@@ -2069,6 +2100,10 @@ Booster Seats,Kids & Baby,Booster Seats -> Kids & Baby
 Baby Gates,Kids & Baby,Baby Gates -> Kids & Baby
 Playpens,Kids & Baby,Playpens -> Kids & Baby
 Baby Monitors,Kids & Baby,Baby Monitors -> Kids & Baby
+Baby Bottles,Kids & Baby,Baby Bottles -> Kids & Baby
+Sippy Cups,Kids & Baby,Sippy Cups -> Kids & Baby
+Sleep Sacks,Kids & Baby,Sleep Sacks -> Kids & Baby
+Swaddles,Kids & Baby,Swaddles -> Kids & Baby
 Emergency Response,root,Emergency Response
 Fire & Rescue Equipment,Emergency Response,Fire & Rescue Equipment -> Emergency Response
 Fire Tools,Fire & Rescue Equipment,Fire Tools -> Fire & Rescue Equipment -> Emergency Response
@@ -2181,6 +2216,9 @@ Balls  AT,Gross Motor,Balls  AT -> Gross Motor -> Assistive Technology
 Balance / Stepping AT,Gross Motor,Balance / Stepping AT -> Gross Motor -> Assistive Technology
 Other Gross Motor,Gross Motor,Other Gross Motor -> Gross Motor -> Assistive Technology
 Daily Living Aids,Assistive Technology,Daily Living Aids -> Assistive Technology
+d/DHH,Assistive Technology,d/DHH -> Assistive Technology
+Vision,Assistive Technology,Vision -> Assistive Technology
+Low-tech AT,Assistive Technology,Low-tech AT -> Assistive Technology
 Science & Engineering,root,Science & Engineering
 Research Equipment,Science & Engineering,Research Equipment -> Science & Engineering
 Lab Instruments & Equipment,Science & Engineering,Lab Instruments & Equipment -> Science & Engineering
@@ -2273,3 +2311,5 @@ Miscellaneous Stands,Party & Events,Miscellaneous Stands -> Party & Events
 Office & Industrial,root,Office & Industrial
 Cash Registers,Office & Industrial,Cash Registers -> Office & Industrial
 Cubicles,Office & Industrial,Cubicles -> Office & Industrial
+More,root,More
+Other,More,Other -> More
