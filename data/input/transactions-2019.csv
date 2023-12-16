@@ -1,4 +1,4 @@
-Transaction ID,Member ID,Date,Payment Method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
+Transaction ID,Member ID,Date,Payment method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Item Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
 1165942,1876,1/2/2019 9:34 AM,,,,,,,,Membership Change,,,,,Request_CheckIDAddressPhoneDOB,,,,loa,,
 1166333,1815,1/2/2019 6:13 PM,,,,,1.8,1.80,5.00,Late Fee,0.9,0.9,4320.0,"Power Sander, Flexible",,,,,Bil,,
 1166333,1815,1/2/2019 6:13 PM,,,,,1.8,1.80,5.00,Late Fee,0.9,0.9,825.0,Power Sander,,,,,Bil,,

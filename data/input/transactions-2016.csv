@@ -1,4 +1,4 @@
-Transaction ID,Member ID,Date,Payment Method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
+Transaction ID,Member ID,Date,Payment method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Item Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
 184477,83,1/2/2016 1:05 PM,,,,,,,,Membership Change,,,,,Request_CheckIDAddressPhoneDOB,,,,fsh,,
 184477,83,1/2/2016 1:05 PM,Cash,,,,,,,,,,,,,,,,,,
 184486,83,1/2/2016 1:14 PM,,,,,,,,Membership Change,,,,,regular,,,,Bil,,

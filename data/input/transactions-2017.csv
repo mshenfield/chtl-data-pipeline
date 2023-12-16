@@ -1,4 +1,4 @@
-Transaction ID,Member ID,Date,Payment Method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
+Transaction ID,Member ID,Date,Payment method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Item Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
 401450,446,1/1/2017 2:01 PM,,,,,0.70,,,Late Fee,0.7,0.70,5210.0,"Clamp, Bar",,,,,Bil,,
 401450,446,1/1/2017 2:01 PM,,,,,0.70,,,Check Out (Renewal),,,5210.0,"Clamp, Bar",,,,,Bil,,Renewal
 401450,446,1/1/2017 2:01 PM,Discount,,0.70,,0.70,,,,,,,,,,,,,happy new year!,

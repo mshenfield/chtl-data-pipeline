@@ -1,4 +1,4 @@
-Transaction ID,Member ID,Date,Payment Method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
+Transaction ID,Member ID,Date,Payment method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Item Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
 1957893,540,1/1/2021 4:24 PM,,,,,3.4,3.40,5.00,Late Fee,1.7,1.7,350.0,Cable Tracker,,,,,Sir,,
 1957893,540,1/1/2021 4:24 PM,,,,,3.4,3.40,5.00,Late Fee,1.7,1.7,6479.0,Roto Zip,,,,,Sir,,
 1957893,540,1/1/2021 4:24 PM,On Account,,,(1.60),3.4,3.40,5.00,,,,,,,,,,,,

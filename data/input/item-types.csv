@@ -155,6 +155,7 @@ Lineman Plier,"Pliers, Cutters, and Snips","Lineman Plier -> Pliers, Cutters, an
 Locking Pliers,"Pliers, Cutters, and Snips","Locking Pliers -> Pliers, Cutters, and Snips -> Hand Tools -> Tools"
 Cement Sheet Cutters,"Pliers, Cutters, and Snips","Cement Sheet Cutters -> Pliers, Cutters, and Snips -> Hand Tools -> Tools"
 Bolt Cutters,"Pliers, Cutters, and Snips","Bolt Cutters -> Pliers, Cutters, and Snips -> Hand Tools -> Tools"
+Box Cutters,"Pliers, Cutters, and Snips","Box Cutters -> Pliers, Cutters, and Snips -> Hand Tools -> Tools"
 Buckets,Hand Tools,Buckets -> Hand Tools -> Tools
 Extension Poles,Hand Tools,Extension Poles -> Hand Tools -> Tools
 Brushes and Rollers,Hand Tools,Brushes and Rollers -> Hand Tools -> Tools
@@ -264,7 +265,6 @@ Drywall Circle Cutters,Drywall Tools,Drywall Circle Cutters -> Drywall Tools -> 
 Electrical Tools,Hand Tools,Electrical Tools -> Hand Tools -> Tools
 Fish Tapes,Electrical Tools,Fish Tapes -> Electrical Tools -> Hand Tools -> Tools
 Wire Strippers,Electrical Tools,Wire Strippers -> Electrical Tools -> Hand Tools -> Tools
-Plumbing Tools,Hand Tools,Plumbing Tools -> Hand Tools -> Tools
 Roof Brackets,Hand Tools,Roof Brackets -> Hand Tools -> Tools
 Brace & Bits,Hand Tools,Brace & Bits -> Hand Tools -> Tools
 Nail Sets,Hand Tools,Nail Sets -> Hand Tools -> Tools
@@ -285,6 +285,7 @@ Pickaxes,Pickaxes & Mattocks,Pickaxes -> Pickaxes & Mattocks -> Hand Tools -> To
 Cutter Mattocks,Pickaxes & Mattocks,Cutter Mattocks -> Pickaxes & Mattocks -> Hand Tools -> Tools
 Pick Mattocks,Pickaxes & Mattocks,Pick Mattocks -> Pickaxes & Mattocks -> Hand Tools -> Tools
 Grubber Mattocks,Pickaxes & Mattocks,Grubber Mattocks -> Pickaxes & Mattocks -> Hand Tools -> Tools
+Clipboards,Hand Tools,Clipboards -> Hand Tools -> Tools
 Power Tools,Tools,Power Tools -> Tools
 Corded & Plug-in,Power Tools,Corded & Plug-in -> Power Tools -> Tools
 Power Drills,Corded & Plug-in,Power Drills -> Corded & Plug-in -> Power Tools -> Tools
@@ -412,6 +413,8 @@ Cordless Hedge Trimmers,Cordless Power Tools,Cordless Hedge Trimmers -> Cordless
 Cordless Sanders,Cordless Power Tools,Cordless Sanders -> Cordless Power Tools -> Power Tools -> Tools
 Cordless Routers,Cordless Power Tools,Cordless Routers -> Cordless Power Tools -> Power Tools -> Tools
 Cordless Jackhammers,Cordless Power Tools,Cordless Jackhammers -> Cordless Power Tools -> Power Tools -> Tools
+Cordless Jigsaws,Cordless Power Tools,Cordless Jigsaws -> Cordless Power Tools -> Power Tools -> Tools
+Cordless Finish Nailers,Cordless Power Tools,Cordless Finish Nailers -> Cordless Power Tools -> Power Tools -> Tools
 Grinders,Power Tools,Grinders -> Power Tools -> Tools
 Bench Grinders,Grinders,Bench Grinders -> Grinders -> Power Tools -> Tools
 Die Grinders,Grinders,Die Grinders -> Grinders -> Power Tools -> Tools
@@ -505,6 +508,12 @@ Radiation Detectors,Meters & Diagnostics,Radiation Detectors -> Meters & Diagnos
 Illuminance Meters,Meters & Diagnostics,Illuminance Meters -> Meters & Diagnostics -> Tools
 Meters & Diagnostics Accessories,Meters & Diagnostics,Meters & Diagnostics Accessories -> Meters & Diagnostics -> Tools
 Energy Efficiency Kits,Meters & Diagnostics,Energy Efficiency Kits -> Meters & Diagnostics -> Tools
+Borescopes & Inspection Cameras,Meters & Diagnostics,Borescopes & Inspection Cameras -> Meters & Diagnostics -> Tools
+Turbidimeters,Meters & Diagnostics,Turbidimeters -> Meters & Diagnostics -> Tools
+Rain Gauges,Meters & Diagnostics,Rain Gauges -> Meters & Diagnostics -> Tools
+Phosphate Test Kits,Meters & Diagnostics,Phosphate Test Kits -> Meters & Diagnostics -> Tools
+Soil Infiltration Rings,Meters & Diagnostics,Soil Infiltration Rings -> Meters & Diagnostics -> Tools
+Water Depth Samplers,Meters & Diagnostics,Water Depth Samplers -> Meters & Diagnostics -> Tools
 Wheelbarrows & Wagons,Tools,Wheelbarrows & Wagons -> Tools
 Utility Wagon,Wheelbarrows & Wagons,Utility Wagon -> Wheelbarrows & Wagons -> Tools
 Wheelbarrow,Wheelbarrows & Wagons,Wheelbarrow -> Wheelbarrows & Wagons -> Tools
@@ -521,11 +530,15 @@ Ear Muffs,Hearing Protection,Ear Muffs -> Hearing Protection -> Safety Equipment
 Ear Plugs,Hearing Protection,Ear Plugs -> Hearing Protection -> Safety Equipment -> Tools
 First Aid Supplies,Safety Equipment,First Aid Supplies -> Safety Equipment -> Tools
 Other Safety Equipment,Safety Equipment,Other Safety Equipment -> Safety Equipment -> Tools
+Reusable Ice Packs,Safety Equipment,Reusable Ice Packs -> Safety Equipment -> Tools
 Aerial Equipment,Tools,Aerial Equipment -> Tools
 Bucket Trucks,Aerial Equipment,Bucket Trucks -> Aerial Equipment -> Tools
-Articulating Boom Lifts,Aerial Equipment,Articulating Boom Lifts -> Aerial Equipment -> Tools
-Telescopic Boom Lifts,Aerial Equipment,Telescopic Boom Lifts -> Aerial Equipment -> Tools
 Scissor Lifts,Aerial Equipment,Scissor Lifts -> Aerial Equipment -> Tools
+Boom Trucks,Aerial Equipment,Boom Trucks -> Aerial Equipment -> Tools
+Boom Lifts,Aerial Equipment,Boom Lifts -> Aerial Equipment -> Tools
+Articulating Boom Lifts,Boom Lifts,Articulating Boom Lifts -> Boom Lifts -> Aerial Equipment -> Tools
+Telescopic Boom Lifts,Boom Lifts,Telescopic Boom Lifts -> Boom Lifts -> Aerial Equipment -> Tools
+Other Aerial Equipment,Aerial Equipment,Other Aerial Equipment -> Aerial Equipment -> Tools
 Automotive Tools,Tools,Automotive Tools -> Tools
 Jack Stands,Automotive Tools,Jack Stands -> Automotive Tools -> Tools
 Automotive Jacks,Automotive Tools,Automotive Jacks -> Automotive Tools -> Tools
@@ -556,6 +569,7 @@ Broadcast Seeders,Seeders,Broadcast Seeders -> Seeders -> Garden Tools -> Tools
 Hand Broadcast Seeder,Broadcast Seeders,Hand Broadcast Seeder -> Broadcast Seeders -> Seeders -> Garden Tools -> Tools
 Walk Behind Broadcast Seeder,Broadcast Seeders,Walk Behind Broadcast Seeder -> Broadcast Seeders -> Seeders -> Garden Tools -> Tools
 Pull Behind Broadcast Seeder,Broadcast Seeders,Pull Behind Broadcast Seeder -> Broadcast Seeders -> Seeders -> Garden Tools -> Tools
+Seeding Trays,Seeders,Seeding Trays -> Seeders -> Garden Tools -> Tools
 Hand Tillers,Garden Tools,Hand Tillers -> Garden Tools -> Tools
 Bed Shapers,Garden Tools,Bed Shapers -> Garden Tools -> Tools
 Planting Templates,Garden Tools,Planting Templates -> Garden Tools -> Tools
@@ -565,8 +579,6 @@ Small Tillers,Garden Tools,Small Tillers -> Garden Tools -> Tools
 Irrigation Pumps,Garden Tools,Irrigation Pumps -> Garden Tools -> Tools
 Compost Aerators,Garden Tools,Compost Aerators -> Garden Tools -> Tools
 Garden Hoses,Garden Tools,Garden Hoses -> Garden Tools -> Tools
-Animal Traps,Garden Tools,Animal Traps -> Garden Tools -> Tools
-Cage Traps,Animal Traps,Cage Traps -> Animal Traps -> Garden Tools -> Tools
 Garden Gloves,Garden Tools,Garden Gloves -> Garden Tools -> Tools
 Dibbles,Garden Tools,Dibbles -> Garden Tools -> Tools
 Farm Tools,Tools,Farm Tools -> Tools
@@ -603,6 +615,7 @@ Tractor Mounted Bed Shaper,Tractor Accessories,Tractor Mounted Bed Shaper -> Tra
 Tractor Forks,Tractor Accessories,Tractor Forks -> Tractor Accessories -> Farm Tools -> Tools
 Tractor Buckets,Tractor Accessories,Tractor Buckets -> Tractor Accessories -> Farm Tools -> Tools
 Seed Drills,Tractor Accessories,Seed Drills -> Tractor Accessories -> Farm Tools -> Tools
+Egg Incubators,Farm Tools,Egg Incubators -> Farm Tools -> Tools
 Tree & Orchard Care Tools,Tools,Tree & Orchard Care Tools -> Tools
 Chainsaws,Tree & Orchard Care Tools,Chainsaws -> Tree & Orchard Care Tools -> Tools
 Electric 12 in Chainsaws,Chainsaws,Electric 12 in Chainsaws -> Chainsaws -> Tree & Orchard Care Tools -> Tools
@@ -626,7 +639,26 @@ Hand Wood Splitter,Wood Splitters,Hand Wood Splitter -> Wood Splitters -> Tree &
 Splitting Maul,Wood Splitters,Splitting Maul -> Wood Splitters -> Tree & Orchard Care Tools -> Tools
 Felling Wedges,Tree & Orchard Care Tools,Felling Wedges -> Tree & Orchard Care Tools -> Tools
 Tree Pullers,Tree & Orchard Care Tools,Tree Pullers -> Tree & Orchard Care Tools -> Tools
+Plumbing Tools,Tools,Plumbing Tools -> Tools
 Heavy Equipment,Tools,Heavy Equipment -> Tools
+Earthmoving Equipment,Heavy Equipment,Earthmoving Equipment -> Heavy Equipment -> Tools
+Dozers,Earthmoving Equipment,Dozers -> Earthmoving Equipment -> Heavy Equipment -> Tools
+Backhoes,Earthmoving Equipment,Backhoes -> Earthmoving Equipment -> Heavy Equipment -> Tools
+Skid-Steer Loaders,Earthmoving Equipment,Skid-Steer Loaders -> Earthmoving Equipment -> Heavy Equipment -> Tools
+Travel Loaders,Earthmoving Equipment,Travel Loaders -> Earthmoving Equipment -> Heavy Equipment -> Tools
+Excavators,Earthmoving Equipment,Excavators -> Earthmoving Equipment -> Heavy Equipment -> Tools
+Front End Loaders,Earthmoving Equipment,Front End Loaders -> Earthmoving Equipment -> Heavy Equipment -> Tools
+Graders,Heavy Equipment,Graders -> Heavy Equipment -> Tools
+Road Maintenance Equipment,Heavy Equipment,Road Maintenance Equipment -> Heavy Equipment -> Tools
+Salt Spreaders,Road Maintenance Equipment,Salt Spreaders -> Road Maintenance Equipment -> Heavy Equipment -> Tools
+Asphalt Heavy Equipment,Heavy Equipment,Asphalt Heavy Equipment -> Heavy Equipment -> Tools
+Asphalt Pavers,Asphalt Heavy Equipment,Asphalt Pavers -> Asphalt Heavy Equipment -> Heavy Equipment -> Tools
+Asphalt Mills,Asphalt Heavy Equipment,Asphalt Mills -> Asphalt Heavy Equipment -> Heavy Equipment -> Tools
+Chip Spreaders,Asphalt Heavy Equipment,Chip Spreaders -> Asphalt Heavy Equipment -> Heavy Equipment -> Tools
+Telehanders,Heavy Equipment,Telehanders -> Heavy Equipment -> Tools
+Core Rigs,Heavy Equipment,Core Rigs -> Heavy Equipment -> Tools
+Digger Dericks,Heavy Equipment,Digger Dericks -> Heavy Equipment -> Tools
+Other Heavy Equipment,Heavy Equipment,Other Heavy Equipment -> Heavy Equipment -> Tools
 Welding,Tools,Welding -> Tools
 Welders,Welding,Welders -> Welding -> Tools
 Arc Cutting and Gouging,Welding,Arc Cutting and Gouging -> Welding -> Tools
@@ -673,8 +705,19 @@ Hand Tile Cutter,Tile Cutters,Hand Tile Cutter -> Tile Cutters -> Flooring Tools
 Tile Nipper,Tile Cutters,Tile Nipper -> Tile Cutters -> Flooring Tools -> Tools
 Laminate Flooring Cutters,Flooring Tools,Laminate Flooring Cutters -> Flooring Tools -> Tools
 Tool Kits,Tools,Tool Kits -> Tools
+Animal & Rodent Control,Tools,Animal & Rodent Control -> Tools
+Animal Traps,Animal & Rodent Control,Animal Traps -> Animal & Rodent Control -> Tools
+Cage Traps,Animal Traps,Cage Traps -> Animal Traps -> Animal & Rodent Control -> Tools
+Kill Traps,Animal Traps,Kill Traps -> Animal Traps -> Animal & Rodent Control -> Tools
+Bait Stations,Animal Traps,Bait Stations -> Animal Traps -> Animal & Rodent Control -> Tools
+Trap Bait & Lures,Animal & Rodent Control,Trap Bait & Lures -> Animal & Rodent Control -> Tools
+Pest-monitoring Devices,Animal & Rodent Control,Pest-monitoring Devices -> Animal & Rodent Control -> Tools
+Animal Trap Accessories,Animal & Rodent Control,Animal Trap Accessories -> Animal & Rodent Control -> Tools
+Magnifiers,Tools,Magnifiers -> Tools
+Soil Augers,Tools,Soil Augers -> Tools
 Kitchen & Dining,root,Kitchen & Dining
 "Canning, Preserving & Homebrew",Kitchen & Dining,"Canning, Preserving & Homebrew -> Kitchen & Dining"
+Fermenting Crocks,"Canning, Preserving & Homebrew","Fermenting Crocks -> Canning, Preserving & Homebrew -> Kitchen & Dining"
 Appliances,Kitchen & Dining,Appliances -> Kitchen & Dining
 Cook's Tools,Kitchen & Dining,Cook's Tools -> Kitchen & Dining
 Cookware & Bakeware,Kitchen & Dining,Cookware & Bakeware -> Kitchen & Dining
@@ -808,6 +851,7 @@ Ice Cream Makers,Small Appliances,Ice Cream Makers -> Small Appliances -> Kitche
 Bread Makers,Small Appliances,Bread Makers -> Small Appliances -> Kitchen & Dining
 Instant Pots,Small Appliances,Instant Pots -> Small Appliances -> Kitchen & Dining
 Slow Cookers,Small Appliances,Slow Cookers -> Small Appliances -> Kitchen & Dining
+Ice Makers,Small Appliances,Ice Makers -> Small Appliances -> Kitchen & Dining
 Pots & Pans,Kitchen & Dining,Pots & Pans -> Kitchen & Dining
 Induction Cooking,Kitchen & Dining,Induction Cooking -> Kitchen & Dining
 Induction Cooktops,Induction Cooking,Induction Cooktops -> Induction Cooking -> Kitchen & Dining
@@ -824,6 +868,7 @@ Kitchen Appliances,Kitchen & Dining,Kitchen Appliances -> Kitchen & Dining
 Food Containers,Kitchen & Dining,Food Containers -> Kitchen & Dining
 Drinking Glasses,Kitchen & Dining,Drinking Glasses -> Kitchen & Dining
 Serving Trays,Kitchen & Dining,Serving Trays -> Kitchen & Dining
+Dish Pans,Kitchen & Dining,Dish Pans -> Kitchen & Dining
 Books & Media,root,Books & Media
 Books,Books & Media,Books -> Books & Media
 eBooks,Books,eBooks -> Books -> Books & Media
@@ -932,10 +977,6 @@ Ariel Robots,Mobile Robots,Ariel Robots -> Mobile Robots -> Robots -> Electronic
 Aquatic Robots,Mobile Robots,Aquatic Robots -> Mobile Robots -> Robots -> Electronics
 Fixed Robots,Robots,Fixed Robots -> Robots -> Electronics
 Video & Photography,Electronics,Video & Photography -> Electronics
-Headphones,Video & Photography,Headphones -> Video & Photography -> Electronics
-Wired Headphones,Headphones,Wired Headphones -> Headphones -> Video & Photography -> Electronics
-Wireless Headphones,Headphones,Wireless Headphones -> Headphones -> Video & Photography -> Electronics
-Headphone Amplifiers,Headphones,Headphone Amplifiers -> Headphones -> Video & Photography -> Electronics
 Projectors,Video & Photography,Projectors -> Video & Photography -> Electronics
 Video Projectors,Projectors,Video Projectors -> Projectors -> Video & Photography -> Electronics
 Light Projectors,Projectors,Light Projectors -> Projectors -> Video & Photography -> Electronics
@@ -978,6 +1019,7 @@ Projector Accessories,Video & Photography,Projector Accessories -> Video & Photo
 Video Kits,Video & Photography,Video Kits -> Video & Photography -> Electronics
 Video Mixers,Video & Photography,Video Mixers -> Video & Photography -> Electronics
 Video Monitors,Video & Photography,Video Monitors -> Video & Photography -> Electronics
+Video Converters,Video & Photography,Video Converters -> Video & Photography -> Electronics
 Signage & Displays,Electronics,Signage & Displays -> Electronics
 Digital Signage,Signage & Displays,Digital Signage -> Signage & Displays -> Electronics
 Print Signage,Signage & Displays,Print Signage -> Signage & Displays -> Electronics
@@ -1126,6 +1168,10 @@ Subwoofers,Speakers,Subwoofers -> Speakers -> Speakers & Amplifiers -> Audio -> 
 Speaker Kits,Speakers,Speaker Kits -> Speakers -> Speakers & Amplifiers -> Audio -> Electronics
 Fullrange Speakers & Stage Monitors,Speakers,Fullrange Speakers & Stage Monitors -> Speakers -> Speakers & Amplifiers -> Audio -> Electronics
 Audio Monitors,Speakers,Audio Monitors -> Speakers -> Speakers & Amplifiers -> Audio -> Electronics
+Headphones,Audio,Headphones -> Audio -> Electronics
+Wired Headphones,Headphones,Wired Headphones -> Headphones -> Audio -> Electronics
+Wireless Headphones,Headphones,Wireless Headphones -> Headphones -> Audio -> Electronics
+Headphone Amplifiers,Headphones,Headphone Amplifiers -> Headphones -> Audio -> Electronics
 Audio Accessories,Audio,Audio Accessories -> Audio -> Electronics
 Audio Cables,Audio Accessories,Audio Cables -> Audio Accessories -> Audio -> Electronics
 Instrument Cables,Audio Cables,Instrument Cables -> Audio Cables -> Audio Accessories -> Audio -> Electronics
@@ -1185,6 +1231,9 @@ Wireless Audio Equipment,Audio,Wireless Audio Equipment -> Audio -> Electronics
 Audio Transmitters and Receivers,Wireless Audio Equipment,Audio Transmitters and Receivers -> Wireless Audio Equipment -> Audio -> Electronics
 FM Transmitters,Wireless Audio Equipment,FM Transmitters -> Wireless Audio Equipment -> Audio -> Electronics
 Speaker Stands,Audio,Speaker Stands -> Audio -> Electronics
+Headsets,Audio,Headsets -> Audio -> Electronics
+Wired Headsets,Headsets,Wired Headsets -> Headsets -> Audio -> Electronics
+Wireless Headsets,Headsets,Wireless Headsets -> Headsets -> Audio -> Electronics
 Microcontroller Kits,Electronics,Microcontroller Kits -> Electronics
 AR Gear,Electronics,AR Gear -> Electronics
 LightÂ­ing ConÂ­trolÂ­lers,Electronics,LightÂ­ing ConÂ­trolÂ­lers -> Electronics
@@ -1297,6 +1346,7 @@ Sleds & Snow Tubes,Winter Sports,Sleds & Snow Tubes -> Winter Sports -> Sports &
 Snow Sleds,Sleds & Snow Tubes,Snow Sleds -> Sleds & Snow Tubes -> Winter Sports -> Sports & Outdoors
 Snow Tubes,Sleds & Snow Tubes,Snow Tubes -> Sleds & Snow Tubes -> Winter Sports -> Sports & Outdoors
 Tobaggans,Sleds & Snow Tubes,Tobaggans -> Sleds & Snow Tubes -> Winter Sports -> Sports & Outdoors
+Ski Racks,Winter Sports,Ski Racks -> Winter Sports -> Sports & Outdoors
 Climbing & Mountaineering,Sports & Outdoors,Climbing & Mountaineering -> Sports & Outdoors
 Top-Rope Anchor Set Ups,Climbing & Mountaineering,Top-Rope Anchor Set Ups -> Climbing & Mountaineering -> Sports & Outdoors
 Climbing Ropes,Climbing & Mountaineering,Climbing Ropes -> Climbing & Mountaineering -> Sports & Outdoors
@@ -1307,6 +1357,9 @@ Climbing Harnesses,Climbing & Mountaineering,Climbing Harnesses -> Climbing & Mo
 Ice Climbing Axes,Climbing & Mountaineering,Ice Climbing Axes -> Climbing & Mountaineering -> Sports & Outdoors
 Climbing Crampons,Climbing & Mountaineering,Climbing Crampons -> Climbing & Mountaineering -> Sports & Outdoors
 Mountaineering Axes,Climbing & Mountaineering,Mountaineering Axes -> Climbing & Mountaineering -> Sports & Outdoors
+Chalk Bags,Climbing & Mountaineering,Chalk Bags -> Climbing & Mountaineering -> Sports & Outdoors
+Carabiners,Climbing & Mountaineering,Carabiners -> Climbing & Mountaineering -> Sports & Outdoors
+Climbing Protection,Climbing & Mountaineering,Climbing Protection -> Climbing & Mountaineering -> Sports & Outdoors
 Outdoors Safety,Sports & Outdoors,Outdoors Safety -> Sports & Outdoors
 Portable First Aid Kits,Outdoors Safety,Portable First Aid Kits -> Outdoors Safety -> Sports & Outdoors
 Water Safety,Outdoors Safety,Water Safety -> Outdoors Safety -> Sports & Outdoors
@@ -1365,6 +1418,10 @@ Hammocks,Outdoor Recreation,Hammocks -> Outdoor Recreation -> Sports & Outdoors
 BBQ Grills,Outdoor Recreation,BBQ Grills -> Outdoor Recreation -> Sports & Outdoors
 Slacklines,Outdoor Recreation,Slacklines -> Outdoor Recreation -> Sports & Outdoors
 BBQ Accessories,Outdoor Recreation,BBQ Accessories -> Outdoor Recreation -> Sports & Outdoors
+BBQ Lighters,BBQ Accessories,BBQ Lighters -> BBQ Accessories -> Outdoor Recreation -> Sports & Outdoors
+Grilling Tools Utensils,BBQ Accessories,Grilling Tools Utensils -> BBQ Accessories -> Outdoor Recreation -> Sports & Outdoors
+Grilling Cookwear,BBQ Accessories,Grilling Cookwear -> BBQ Accessories -> Outdoor Recreation -> Sports & Outdoors
+Grill Cleaning Tools,BBQ Accessories,Grill Cleaning Tools -> BBQ Accessories -> Outdoor Recreation -> Sports & Outdoors
 Fire Grills,Outdoor Recreation,Fire Grills -> Outdoor Recreation -> Sports & Outdoors
 Marine & Fishing,Sports & Outdoors,Marine & Fishing -> Sports & Outdoors
 Anchors,Marine & Fishing,Anchors -> Marine & Fishing -> Sports & Outdoors
@@ -1460,6 +1517,10 @@ Soccer Balls,Soccer Equipment,Soccer Balls -> Soccer Equipment -> Sports & Outdo
 Soccer Shin Guards,Soccer Equipment,Soccer Shin Guards -> Soccer Equipment -> Sports & Outdoors
 Soccer Bags,Soccer Equipment,Soccer Bags -> Soccer Equipment -> Sports & Outdoors
 Soccer Nets,Soccer Equipment,Soccer Nets -> Soccer Equipment -> Sports & Outdoors
+Laser Rangefinders,Sports & Outdoors,Laser Rangefinders -> Sports & Outdoors
+Tally Counters,Sports & Outdoors,Tally Counters -> Sports & Outdoors
+Maps,Sports & Outdoors,Maps -> Sports & Outdoors
+Handheld GPS Units,Sports & Outdoors,Handheld GPS Units -> Sports & Outdoors
 Education,root,Education
 Resource Boxes,Education,Resource Boxes -> Education
 Education Supplies,Education,Education Supplies -> Education
@@ -1472,6 +1533,7 @@ Educational Equipment,Education,Educational Equipment -> Education
 Training Materials,Education,Training Materials -> Education
 Professional Learning,Education,Professional Learning -> Education
 Resource Kits,Education,Resource Kits -> Education
+Senior & Caregiver Reminisce Kits,Resource Kits,Senior & Caregiver Reminisce Kits -> Resource Kits -> Education
 Assessments,Education,Assessments -> Education
 Music,root,Music
 Woodwind Instruments,Music,Woodwind Instruments -> Music
@@ -1665,29 +1727,26 @@ Ratchet Straps,Hitches & Towing Accessories,Ratchet Straps -> Hitches & Towing A
 Vans,Vehicles & Trailers,Vans -> Vehicles & Trailers
 Passenger Vans,Vans,Passenger Vans -> Vans -> Vehicles & Trailers
 Cargo Vans,Vans,Cargo Vans -> Vans -> Vehicles & Trailers
-Salt Spreaders,Vehicles & Trailers,Salt Spreaders -> Vehicles & Trailers
-Earthmoving Equipment,Vehicles & Trailers,Earthmoving Equipment -> Vehicles & Trailers
-Dozers,Earthmoving Equipment,Dozers -> Earthmoving Equipment -> Vehicles & Trailers
-Backhoes,Earthmoving Equipment,Backhoes -> Earthmoving Equipment -> Vehicles & Trailers
-Loaders,Earthmoving Equipment,Loaders -> Earthmoving Equipment -> Vehicles & Trailers
-Road Graders,Earthmoving Equipment,Road Graders -> Earthmoving Equipment -> Vehicles & Trailers
 Recreational Vehicles,Vehicles & Trailers,Recreational Vehicles -> Vehicles & Trailers
 ATVs,Recreational Vehicles,ATVs -> Recreational Vehicles -> Vehicles & Trailers
 ATV Sprayers,ATVs,ATV Sprayers -> ATVs -> Recreational Vehicles -> Vehicles & Trailers
 ATV Drip Torches,ATVs,ATV Drip Torches -> ATVs -> Recreational Vehicles -> Vehicles & Trailers
-UTV,Recreational Vehicles,UTV -> Recreational Vehicles -> Vehicles & Trailers
+UTVs,Vehicles & Trailers,UTVs -> Vehicles & Trailers
 Marine Vehicles,Vehicles & Trailers,Marine Vehicles -> Vehicles & Trailers
 Boats,Marine Vehicles,Boats -> Marine Vehicles -> Vehicles & Trailers
 Motorboats,Boats,Motorboats -> Boats -> Marine Vehicles -> Vehicles & Trailers
 Sailboats,Boats,Sailboats -> Boats -> Marine Vehicles -> Vehicles & Trailers
-Wheel Chocks,Vehicles & Trailers,Wheel Chocks -> Vehicles & Trailers
-Pavers,Vehicles & Trailers,Pavers -> Vehicles & Trailers
 Cargo Bicycles,Vehicles & Trailers,Cargo Bicycles -> Vehicles & Trailers
 Commuter Bicycles,Vehicles & Trailers,Commuter Bicycles -> Vehicles & Trailers
 Cargo Carriers,Vehicles & Trailers,Cargo Carriers -> Vehicles & Trailers
 Rooftop Bike Carriers,Cargo Carriers,Rooftop Bike Carriers -> Cargo Carriers -> Vehicles & Trailers
 Rooftop Ski Carriers,Cargo Carriers,Rooftop Ski Carriers -> Cargo Carriers -> Vehicles & Trailers
 Carts & Trolleys,Vehicles & Trailers,Carts & Trolleys -> Vehicles & Trailers
+Vehichle & Trailer Safety,Vehicles & Trailers,Vehichle & Trailer Safety -> Vehicles & Trailers
+Wheel Chocks,Vehichle & Trailer Safety,Wheel Chocks -> Vehichle & Trailer Safety -> Vehicles & Trailers
+LED Road Safety Flares,Vehichle & Trailer Safety,LED Road Safety Flares -> Vehichle & Trailer Safety -> Vehicles & Trailers
+Road Maps,Vehicles & Trailers,Road Maps -> Vehicles & Trailers
+Cargo Nets,Vehicles & Trailers,Cargo Nets -> Vehicles & Trailers
 Clothing,root,Clothing
 Pants,Clothing,Pants -> Clothing
 Waterproof Rain Pants,Pants,Waterproof Rain Pants -> Pants -> Clothing
@@ -1777,6 +1836,7 @@ Fleece Winter Hats,Hats,Fleece Winter Hats -> Hats -> Headwear -> Clothing
 Wool Hats,Hats,Wool Hats -> Hats -> Headwear -> Clothing
 Bandanas,Headwear,Bandanas -> Headwear -> Clothing
 Neck Gaiters,Headwear,Neck Gaiters -> Headwear -> Clothing
+Balaclavas,Headwear,Balaclavas -> Headwear -> Clothing
 Half & Quarter Zips,Clothing,Half & Quarter Zips -> Clothing
 Bottoms,Clothing,Bottoms -> Clothing
 Skirts,Bottoms,Skirts -> Bottoms -> Clothing
@@ -1850,6 +1910,7 @@ Clothlines,Laundry Organization,Clothlines -> Laundry Organization -> Storage & 
 Clothes Hampers,Laundry Organization,Clothes Hampers -> Laundry Organization -> Storage & Organization -> Furniture & Spaces
 Steam Irons,Laundry Organization,Steam Irons -> Laundry Organization -> Storage & Organization -> Furniture & Spaces
 Clothing Steamers,Laundry Organization,Clothing Steamers -> Laundry Organization -> Storage & Organization -> Furniture & Spaces
+Storage Lockers,Storage & Organization,Storage Lockers -> Storage & Organization -> Furniture & Spaces
 Studios,Furniture & Spaces,Studios -> Furniture & Spaces
 Moving Supplies,Furniture & Spaces,Moving Supplies -> Furniture & Spaces
 Moving Blankets,Moving Supplies,Moving Blankets -> Moving Supplies -> Furniture & Spaces
@@ -2016,6 +2077,7 @@ Wheelchair Ramps,Wheelchairs & Accessories,Wheelchair Ramps -> Wheelchairs & Acc
 Wheelchair Cushions,Wheelchairs & Accessories,Wheelchair Cushions -> Wheelchairs & Accessories -> Medical Equipment
 Disposable Medical Items,Medical Equipment,Disposable Medical Items -> Medical Equipment
 Power Lift Recliners,Medical Equipment,Power Lift Recliners -> Medical Equipment
+Cold Therapy Machines,Medical Equipment,Cold Therapy Machines -> Medical Equipment
 Art,root,Art
 Original Paintings,Art,Original Paintings -> Art
 Original Prints,Art,Original Prints -> Art
@@ -2165,7 +2227,7 @@ Switch Interface Electrical Adaptors,Switch Interfaces,Switch Interface Electric
 Assistive Switches,Alternate Input Devices,Assistive Switches -> Alternate Input Devices -> Assistive Technology
 Keyguards,Alternate Input Devices,Keyguards -> Alternate Input Devices -> Assistive Technology
 Alternate Mice,Alternate Input Devices,Alternate Mice -> Alternate Input Devices -> Assistive Technology
-Alteranate Head Mice,Alternate Mice,Alteranate Head Mice -> Alternate Mice -> Alternate Input Devices -> Assistive Technology
+Alternate Head Mice,Alternate Mice,Alternate Head Mice -> Alternate Mice -> Alternate Input Devices -> Assistive Technology
 Alternate Touch Screens,Alternate Mice,Alternate Touch Screens -> Alternate Mice -> Alternate Input Devices -> Assistive Technology
 Alternate Trackballs,Alternate Mice,Alternate Trackballs -> Alternate Mice -> Alternate Input Devices -> Assistive Technology
 Alternate Joysticks,Alternate Mice,Alternate Joysticks -> Alternate Mice -> Alternate Input Devices -> Assistive Technology
@@ -2228,6 +2290,7 @@ Centrifuges,Lab Instruments & Equipment,Centrifuges -> Lab Instruments & Equipme
 Refractometers,Lab Instruments & Equipment,Refractometers -> Lab Instruments & Equipment -> Science & Engineering
 Lab Refrigerators,Lab Instruments & Equipment,Lab Refrigerators -> Lab Instruments & Equipment -> Science & Engineering
 Scientific Probes,Lab Instruments & Equipment,Scientific Probes -> Lab Instruments & Equipment -> Science & Engineering
+Lab Furnaces,Lab Instruments & Equipment,Lab Furnaces -> Lab Instruments & Equipment -> Science & Engineering
 Lab Glassware & Plasticware,Science & Engineering,Lab Glassware & Plasticware -> Science & Engineering
 Beakers,Lab Glassware & Plasticware,Beakers -> Lab Glassware & Plasticware -> Science & Engineering
 Flasks,Lab Glassware & Plasticware,Flasks -> Lab Glassware & Plasticware -> Science & Engineering
@@ -2235,6 +2298,9 @@ Stoppers & Closures,Lab Glassware & Plasticware,Stoppers & Closures -> Lab Glass
 Crucibles,Lab Glassware & Plasticware,Crucibles -> Lab Glassware & Plasticware -> Science & Engineering
 Burettes,Lab Glassware & Plasticware,Burettes -> Lab Glassware & Plasticware -> Science & Engineering
 General Measurement,Science & Engineering,General Measurement -> Science & Engineering
+Droppers,Science & Engineering,Droppers -> Science & Engineering
+Butterfly Nets,Science & Engineering,Butterfly Nets -> Science & Engineering
+Weather Stations,Science & Engineering,Weather Stations -> Science & Engineering
 Hobbies & Crafts,root,Hobbies & Crafts
 Sewing Machines,Hobbies & Crafts,Sewing Machines -> Hobbies & Crafts
 Button Makers,Hobbies & Crafts,Button Makers -> Hobbies & Crafts

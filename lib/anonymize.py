@@ -53,8 +53,8 @@ USER_COLS = (
 # useful to include these, so I'm including the column here, and only
 # including the first three letters of the col below.
 TRANSACTION_COLS = (
-    "Transaction ID","Member ID","Date","Payment Method","Payment Amount","Discount","On Account","Transaction Amount","Amount Due",
-    "Amount Paid","Type","Amount Due For Line Item","Actual Paid","Item ID","Item Name","Membership Type","Applicable Taxes",
+    "Transaction ID","Member ID","Date","Payment method","Payment Amount","Discount","On Account","Transaction Amount","Amount Due",
+    "Amount Paid","Item Type","Amount Due For Line Item","Actual Paid","Item ID","Item Name","Membership Type","Applicable Taxes",
     "Project ID","Project Name","Handled By","Notes","Renewal",
 )
 
@@ -67,13 +67,13 @@ def anonymize(input_directory, output_directory):
 
     copy_to_input_with_cols('loans-checked-out.csv', CHECKED_OUT_LOANS_COLS)
 
-    copy_to_input_with_cols('inventory-snapshot.csv', INVENTORY_COLS)    
+    copy_to_input_with_cols('inventory-snapshot.csv', INVENTORY_COLS)
 
-    copy_to_input_with_cols('item-types.csv', ITEM_TYPE_COLS)    
-    
+    copy_to_input_with_cols('item-types.csv', ITEM_TYPE_COLS)
+
     # Include the "-2" to avoid "loans-checked-out". Should work for the next 977 years.
     for f in glob.glob('loans-2*.csv', root_dir=input_directory):
-        copy_to_input_with_cols(f, LOAN_COLS) 
+        copy_to_input_with_cols(f, LOAN_COLS)
 
     copy_to_input_with_cols('outstanding-balances.csv', OUTSTANDING_BALANCE_COLS)
 
@@ -93,10 +93,10 @@ def anonymize(input_directory, output_directory):
     for f in glob.glob('*.csv', root_dir=input_directory):
         if not path.exists(f'{output_directory}/{f}'):
            raise AssertionError(f'There is no copy of {f} in "{output_directory}". Add some handling for it to the script.')
-    
+
     # Also make sure there aren't files in the the anonymized output_directory that aren't originally in the input_directory.
     # This data likely isn't anonymized.
     for f in glob.glob('*.csv', root_dir=output_directory):
         if not path.exists(f'{input_directory}/{f}'):
-            raise AssertionError(f'{output_directory}/{f} doesn\'t look like was anonymized.'
+          raise AssertionError(f'{output_directory}/{f} doesn\'t look like was anonymized - there is not a corresponding file in {input_directory}.'
                                  f'Move it to {input_directory} and remove any personal info columns using this script')

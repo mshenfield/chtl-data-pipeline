@@ -1,4 +1,4 @@
-Transaction ID,Member ID,Date,Payment Method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
+Transaction ID,Member ID,Date,Payment method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Item Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
 760010,1022,1/1/2018 12:37 AM,,,,,1.8,1.80,,Late Fee,0.9,0.9,4341.0,Tin Shears,,,,,Gin,,
 760010,1022,1/1/2018 12:37 AM,,,,,1.8,1.80,,Late Fee,0.9,0.9,4938.0,"Tape Measure, 25ft",,,,,Gin,,
 760010,1022,1/1/2018 12:37 AM,,,,,1.8,1.80,,Check Out (Renewal),,,4938.0,"Tape Measure, 25ft",,,,,Gin,,Renewal

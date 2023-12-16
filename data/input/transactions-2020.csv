@@ -1,4 +1,4 @@
-Transaction ID,Member ID,Date,Payment Method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
+Transaction ID,Member ID,Date,Payment method,Payment Amount,Discount,On Account,Transaction Amount,Amount Due,Amount Paid,Item Type,Amount Due For Line Item,Actual Paid,Item ID,Item Name,Membership Type,Applicable Taxes,Project ID,Project Name,Handled By,Notes,Renewal
 1608233,2682,1/3/2020 9:02 PM,,,,,,,,Membership Change,,,,,Request_CheckIDAddressPhoneDOB,,,,mcl,,
 1608235,2597,1/3/2020 10:11 PM,,,,,,,,Loan Return,,,6169.0,"Wrench, Basin",,,,,jde,,
 1608235,2597,1/3/2020 10:11 PM,,,,,,,,Check Out (Renewal),,,6169.0,"Wrench, Basin",,,,,jde,self-renewal,Renewal
