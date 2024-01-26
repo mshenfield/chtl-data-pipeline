@@ -855,7 +855,10 @@ Ice Makers,Small Appliances,Ice Makers -> Small Appliances -> Kitchen & Dining
 Pots & Pans,Kitchen & Dining,Pots & Pans -> Kitchen & Dining
 Induction Cooking,Kitchen & Dining,Induction Cooking -> Kitchen & Dining
 Induction Cooktops,Induction Cooking,Induction Cooktops -> Induction Cooking -> Kitchen & Dining
-Induction Pans,Induction Cooking,Induction Pans -> Induction Cooking -> Kitchen & Dining
+Induction Cookware,Induction Cooking,Induction Cookware -> Induction Cooking -> Kitchen & Dining
+Induction Pans,Induction Cookware,Induction Pans -> Induction Cookware -> Induction Cooking -> Kitchen & Dining
+Induction Pots,Induction Cookware,Induction Pots -> Induction Cookware -> Induction Cooking -> Kitchen & Dining
+Induction Woks,Induction Cookware,Induction Woks -> Induction Cookware -> Induction Cooking -> Kitchen & Dining
 Food Items,Kitchen & Dining,Food Items -> Kitchen & Dining
 Chocolates,Food Items,Chocolates -> Food Items -> Kitchen & Dining
 Cutlery,Kitchen & Dining,Cutlery -> Kitchen & Dining
@@ -917,9 +920,11 @@ Network Equipment,Electronics,Network Equipment -> Electronics
 Network Switches,Network Equipment,Network Switches -> Network Equipment -> Electronics
 Wireless Networking,Network Equipment,Wireless Networking -> Network Equipment -> Electronics
 Wireless Hotspots,Wireless Networking,Wireless Hotspots -> Wireless Networking -> Network Equipment -> Electronics
+Wireless Gateway,Wireless Networking,Wireless Gateway -> Wireless Networking -> Network Equipment -> Electronics
 Network Accessories,Network Equipment,Network Accessories -> Network Equipment -> Electronics
 Network Cables,Network Accessories,Network Cables -> Network Accessories -> Network Equipment -> Electronics
 Modems,Network Equipment,Modems -> Network Equipment -> Electronics
+Network Gateway,Network Equipment,Network Gateway -> Network Equipment -> Electronics
 Video Gaming,Electronics,Video Gaming -> Electronics
 Game Consoles,Video Gaming,Game Consoles -> Video Gaming -> Electronics
 Controllers,Video Gaming,Controllers -> Video Gaming -> Electronics
