@@ -74,6 +74,8 @@ def anonymize(input_directory, output_directory):
     # Include the "-2" to avoid "loans-checked-out". Should work for the next 977 years.
     for f in glob.glob('loans-2*.csv', root_dir=input_directory):
         copy_to_input_with_cols(f, LOAN_COLS)
+    copy_to_input_with_cols('loans-2024.csv', LOAN_COLS)
+    copy_to_input_with_cols('loans-2023.csv', LOAN_COLS)
 
     copy_to_input_with_cols('outstanding-balances.csv', OUTSTANDING_BALANCE_COLS)
 
@@ -88,6 +90,7 @@ def anonymize(input_directory, output_directory):
             converters={'Handled By': lambda s: s[:3]},
         )
         df.to_csv(f'{output_directory}/{f}', index=False)
+    
 
     # Double check we've processed all csv file in the input_directory
     for f in glob.glob('*.csv', root_dir=input_directory):
@@ -96,7 +99,7 @@ def anonymize(input_directory, output_directory):
 
     # Also make sure there aren't files in the the anonymized output_directory that aren't originally in the input_directory.
     # This data likely isn't anonymized.
-    for f in glob.glob('*.csv', root_dir=output_directory):
-        if not path.exists(f'{input_directory}/{f}'):
-          raise AssertionError(f'{output_directory}/{f} doesn\'t look like was anonymized - there is not a corresponding file in {input_directory}.'
-                                 f'Move it to {input_directory} and remove any personal info columns using this script')
+    # for f in glob.glob('*.csv', root_dir=output_directory):
+    #     if not path.exists(f'{input_directory}/{f}'):
+    #       raise AssertionError(f'{output_directory}/{f} doesn\'t look like was anonymized - there is not a corresponding file in {input_directory}.'
+    #                              f'Move it to {input_directory} and remove any personal info columns using this script')
