@@ -2,7 +2,7 @@ from datetime import date
 import re
 import pandas as pd
 
-from ._myturn_formats import MYTURN_DATETIME_FORMAT
+from ._formats import MYTURN_DATETIME_FORMAT
 from ..chtl import OPEN_YEARS
 
 # Match everything but the number in of "$1.01" or "($1.01)"

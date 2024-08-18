@@ -81,16 +81,22 @@ def pipeline(
 
         os.makedirs(downloads_dir, exist_ok=True)
         for myf in myturn_files:
-            if myf in (MyTurnFiles.LOANS, MyTurnFiles.TRANSACTIONS):
+            if myf == MyTurnFiles.LOANS or myf == MyTurnFiles.TRANSACTIONS:
                 for year in years:
                     filename = f"{myf.filename}{year}"
                     print(f"Downloading {filename}...")
                     download(bot, myf.path(year), downloads_dir, filename)
-                    print("Download complete")
+                    print(f"{filename} download complete")
             else:
                 print(f"Downloading {myf.filename}...")
                 download(bot, myf.path, downloads_dir, myf.filename)
-                print("Download complete")
+                print(f"{myf.filename} download complete")
+            # TODO: Make this all in one config
+            # For loans, also download the currently checked out loans
+            if myf == MyTurnFiles.LOANS:
+                filename = f"{myf.filename}checked-out"
+                print(f"Downloading {filename}")
+                download(bot, paths.CURRENTLY_CHECKED_OUT_PATH, downloads_dir, filename)
 
     if Stages.PROCESS in stages:
         os.makedirs(processed_dir, exist_ok=True)

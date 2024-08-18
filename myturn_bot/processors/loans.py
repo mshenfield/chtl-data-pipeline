@@ -2,7 +2,7 @@ from datetime import datetime
 import os
 import pandas as pd
 
-from ._myturn_formats import MYTURN_DATE_FORMAT, MYTURN_DATETIME_FORMAT
+from ._formats import MYTURN_DATE_FORMAT, MYTURN_DATETIME_FORMAT
 from ..chtl import OPEN_YEARS
 
 
@@ -44,6 +44,8 @@ def process(input_dir, output_dir, filename):
     # Combine the completed loans from each year and any outstanding loans into a single dataframe.
     raw_loans = pd.concat(
         [_read_loans_csv(f"{input_dir}/{filename}{year}.csv") for year in OPEN_YEARS]
+        # TODO: Tighten this up.
+        + [_read_loans_csv(f"{input_dir}/{filename}checked-out.csv")]
     )
     # Rename "Late Fees to Date" to "Late Fees To Date" for consistency
     raw_loans.rename(columns={"Late Fees to Date": "Late Fees To Date"}, inplace=True)

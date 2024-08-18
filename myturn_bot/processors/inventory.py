@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-from ._myturn_formats import MYTURN_DATE_FORMAT, MYTURN_DATETIME_FORMAT
+from ._formats import MYTURN_DATE_FORMAT, MYTURN_DATETIME_FORMAT
 
 
 def process(input_dir, output_dir, filename):
