@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Get a list of staged ipynb files
-files=$(git diff --name-only --cached *.ipynb)
+# Get a list of staged ipynb files, excluding deleted files
+files=$(git diff --diff-filter=d --name-only --cached *.ipynb)
 
 if [[ -z $files ]]
 then

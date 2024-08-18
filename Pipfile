@@ -10,6 +10,7 @@ matplotlib = "*"
 nbconvert = {extras = ["pdf", "webpdf"], version = "*"}
 requests = "*"
 click = "*"
+myturn-bot = {file = ".", editable = true}
 
 [dev-packages]
 

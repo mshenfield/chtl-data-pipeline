@@ -1,6 +1,6 @@
 # Capitol Hill Tool Library Data Pipeline
 
-A pipeline for data from the Capitol Hill Tool Library's MyTurn dashboard.
+Some scripts that download MyTurn data, massage it, and display them as reports.
 
 ## Running
 
@@ -8,37 +8,41 @@ Make sure you have [`Pipenv`](https://docs.pipenv.org/) installed. In this direc
 
 ```
 pipenv shell
-# The first time you run, install dependencies
+# Installs the myturn_bot package, and juptyer lab+pandas for hacking.
 pipenv install
-# Open up the set of Jupyter notebooks
+```
+
+`myturn_bot` is installed as an editable package, so you can make edits and it will be reflected
+when you run it next.
+
+### Pipeline
+
+To fetch and process data, use the newly installed `myturn_bot pipeline` tool in your pipenv.
+
+```
+# Download and process all your library's data
+myturn_bot pipeline --output <somedir> --subdomain capitolhill
+```
+
+WARNING: Running `myturn_bot pipeline` requires [Super Admin access](https://support.myturn.com/hc/en-us/articles/205664648-Creating-Additional-Admin-Users).
+
+See `myturn_bot pipeline --help` for more info on options. In addition to a full run, you can
+only run specific stages (download/process), files (users/loans), or years
+(e.g only 2024 loans and transactions).
+
+### Notebooks
+
+See the [`notebooks/`](./notebooks/) dir to run some interesting reports and data based on the
+processed MyTurn data. To run notebooks:
+
+```
+pipenv shell
 jupyter lab
 ```
 
-This will open a browser window where you can edit and run the import/processing scripts.
+## Data Sources
 
-Before commiting changes or submitting pull requests, run `cp pre-commit .git/hooks`. This file is set up to automatically remove ipynb notebook output prior to committing (as long as you are running `git commit` in a `pipenv shell`).
-
-## Inputs
-
-Data can be manually or programatically exported from [the CHTL MyTurn site](https://capitolhill.myturn.com/).  To export, request [Super Admin access](https://support.myturn.com/hc/en-us/articles/205664648-Creating-Additional-Admin-Users), or ask an existing Super Admin to export the data for you.
-
-
-## Automated Export
-
-You can automatically download and anomyize files using `cli.py` in lib.
-
-```
-# Make sure you're in a pipenv shell, and the root of this project
-pipenv shell
-./lib/cli.py download --subdomain capitolhill --output_directory data/input_with_personal_info/
-./lib/cli.py anonymize --input_directory data/input_with_personal_info/ --output_directory data/input/
-# TODO: Convert the more stable Python notebooks into a format we can run from the CLI
-# TODO: Allow downloading/process/anonymizing a particular report
-```
-
-## Manual Export
-
-The process for manually exporting data is documented here. This is kept up to date because it makes it clear where data is coming from, and is used to grab the URL used by the programattic download script.
+The process for manually exporting data from capitolhill.myturn.com is documented here. This is kept up to date because it makes it clear where data is coming from, and is used to grab the URL used by the programattic download script.
 
 * Inventory
   * Go to the ["Export Inventory"](https://capitolhill.myturn.com/library/orgInventory/report) page
@@ -85,14 +89,18 @@ The process for manually exporting data is documented here. This is kept up to d
 
 When done, run `./lib/cli.py anonymize --input_directory data/input_with_personal_info/ --output_directory data/input/` to remove any personal info from the downloads and copy it to the `input` folder, where it can be committed to source control and used by scripts.
 
-## Outputs
+## Deployment
 
-To generate data in `data/output/`, run each notebook in the order it appears in jupyter lab. The prefix of each file (`01_` etc.) indicates whether it depends on any previous file. Files with `01_` don't depend on any other files, but files with `02_` depend on the outputs of `01_`, and so on.
+Copy the setup.py and the myturn_bot folder to a folder on the server you'd liek to run:
 
-## Bash And Other Scripts
-
-For analyses that aren't iPython notebooks, place them in the analyses folder.
-
+```
+cd <project-folder>
+# At least Python 3.8. Create a virtualenv in the "venv/" folder
+python3 -m venv venv
+. ./venv/bin/activate
+pip install -e .
+# Now you can run the command line
+```
 ## License
 
 MIT

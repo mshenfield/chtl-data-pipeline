@@ -1,10 +1,12 @@
-# Don't include raw downloads from my turn, which personal information like addresses and names.
-data/input_with_personal_info/
-# Exclude any script outputs with personal info
-data/output_with_personal_info/
-
 # Any DB in SQLite may also contain personal info.
 sqlite/*.db
 
 # Not Jupyter notebook artifacts
 *.ipynb_checkpoints/
+
+# Exclude virtualenv
+venv/
+
+# Exclude setup.py installs
+*.egg-info/
+__pycache__/
