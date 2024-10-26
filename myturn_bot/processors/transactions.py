@@ -95,6 +95,6 @@ def process(input_dir, output_dir, filename):
         method="ffill", inplace=True
     )
 
-    raw_transactions.to_csv(f"{output_dir}/{filename}.csv")
-    raw_transactions.to_pickle(f"{output_dir}/{filename}.pkl")
+    raw_transactions.to_csv(f"{output_dir}/transactions.csv")
+    raw_transactions.to_pickle(f"{output_dir}/transactions.pkl")
     print(f"transactions complete")
