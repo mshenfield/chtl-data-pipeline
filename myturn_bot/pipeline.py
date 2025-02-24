@@ -69,9 +69,9 @@ def pipeline(
 
         def download(bot, myturn_path, d, f):
             # The timeout is timeout-to-first-byte, not for the download to complete.
-            # 3 minutes should be more than enough, and future proof as our transaction
+            # 5 minutes should be more than enough, and future proof as our transaction
             # volume increases.
-            r = bot.get(myturn_path, timeout=180, allow_redirects=False)
+            r = bot.get(myturn_path, timeout=300, allow_redirects=False)
             if r.status_code != 200:
                 raise Exception(
                     f"Unexpected status received for report {f}. Response: {r.status_code} {r.headers} {r.text}"
