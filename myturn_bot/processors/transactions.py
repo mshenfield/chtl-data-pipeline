@@ -51,11 +51,11 @@ def _read_transactions_csv(input_dir, filename):
             "Payment Amount",
             "Discount",
             "On Account",
-            # "Item Type" is actually the "Transaction Type" - confusing.
             "Transaction Amount",
             "Amount Due",
             "Amount Paid",
             "Item Type",
+            "Transaction Type",
             "Amount Due For Line Item",
             "Actual Paid",
             "Item ID",

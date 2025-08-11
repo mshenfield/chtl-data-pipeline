@@ -28,6 +28,8 @@ def process(input_dir, output_dir, filename):
             "Current Membership Type",
             "Latest Membership Change (request, upgrade, renewal, cancellation...) (M/D/YYYY)",
             "Current Membership Expiration (M/D/YYYY)",
+            "User Note",
+            "User Warning",
         ),
         parse_dates=[
             "Member Created (M/D/YYYY)",
