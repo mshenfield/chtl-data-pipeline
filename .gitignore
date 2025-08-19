@@ -10,3 +10,5 @@ venv/
 # Exclude setup.py installs
 *.egg-info/
 __pycache__/
+
+data/
