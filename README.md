@@ -4,7 +4,7 @@ Some scripts that download MyTurn data, massage it, and display them as reports.
 
 ## Running
 
-Make sure you have [`Pipenv`](https://docs.pipenv.org/) installed. In this directory, run:
+Make sure [`Pipenv`](https://docs.pipenv.org/) is installed. In this directory, run:
 
 ```
 pipenv shell
