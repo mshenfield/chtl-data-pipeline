@@ -1,5 +1,6 @@
 # Generate the members table.
 import pandas as pd
+import sqlite3
 
 
 def process(input_dir, output_dir, filename):
@@ -38,10 +39,20 @@ def process(input_dir, output_dir, filename):
             "Current Membership Expiration (M/D/YYYY)",
         ],
         dtype={
+            "Member ID": "string",
             "Current Membership Type": "category",
             "Confirmed?": "boolean",
             "Age": "Int64",
+            "American Indian or Alaskan Native": "boolean",
+            "Asian": "boolean",
+            "Black or African American": "boolean",
+            "Hispanic": "boolean",
+            "White": "boolean",
+            "Native Hawaiian or Pacific Islander": "boolean",
+            "Other": "boolean",
         },
+        true_values=["Y"],
+        false_values=["F"],
     )
 
     # For consistency with the loans column name
@@ -58,4 +69,7 @@ def process(input_dir, output_dir, filename):
 
     users.to_csv(f"{output_dir}/{filename}.csv")
     users.to_pickle(f"{output_dir}/{filename}.pkl")
+    con = sqlite3.connect(f'{output_dir}/myturn.db')
+    users.to_sql(name=filename, con=con, if_exists='replace', index=False)
+    
     print(f"{filename} complete")

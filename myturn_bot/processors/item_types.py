@@ -1,6 +1,6 @@
 from collections import defaultdict
 import pandas as pd
-
+import sqlite3
 
 def itertuples(item_type_df):
     return item_type_df.rename(
@@ -20,4 +20,6 @@ def process(input_dir, output_dir, filename):
 
     item_types.to_csv(f"{output_dir}/{filename}.csv")
     item_types.to_pickle(f"{output_dir}/{filename}.pkl")
+    con = sqlite3.connect(f'{output_dir}/myturn.db')
+    item_types.to_sql(name=filename, con=con, if_exists='replace', index=False)
     print(f"{filename} complete")

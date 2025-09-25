@@ -1,6 +1,7 @@
 from datetime import date
 import re
 import pandas as pd
+import sqlite3
 
 from ._formats import MYTURN_DATETIME_FORMAT
 from ..chtl import OPEN_YEARS
@@ -82,7 +83,7 @@ def _read_transactions_csv(input_dir, filename):
 
 def process(input_dir, output_dir, filename):
     print(f"Processing transactions")
-    raw_transactions = pd.concat(
+    txns = pd.concat(
         [
             _read_transactions_csv(input_dir, f"{filename}{year}.csv")
             for year in OPEN_YEARS
@@ -91,10 +92,14 @@ def process(input_dir, output_dir, filename):
 
     # "Item Type" is only set for the first row in a sequence of transactions.
     # Use the initial value for each row for forward fill until the next value.
-    raw_transactions["Item Type"] = raw_transactions["Item Type"].fillna(
+    txns["Item Type"] = txns["Item Type"].fillna(
         method="ffill", inplace=True
     )
 
-    raw_transactions.to_csv(f"{output_dir}/transactions.csv")
-    raw_transactions.to_pickle(f"{output_dir}/transactions.pkl")
+    # Don't dump the index column, we really don't need it.
+    del txns['index']
+    txns.to_csv(f"{output_dir}/transactions.csv")
+    txns.to_pickle(f"{output_dir}/transactions.pkl")
+    con = sqlite3.connect(f'{output_dir}/myturn.db')
+    txns.to_sql(name="transactions", con=con, if_exists='replace', index=False)
     print(f"transactions complete")

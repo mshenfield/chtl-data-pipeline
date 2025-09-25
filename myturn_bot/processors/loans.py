@@ -1,6 +1,7 @@
 from datetime import datetime
 import os
 import pandas as pd
+import sqlite3
 
 from ._formats import MYTURN_DATE_FORMAT, MYTURN_DATETIME_FORMAT
 from ..chtl import OPEN_YEARS
@@ -98,6 +99,7 @@ def process(input_dir, output_dir, filename):
     # entries, reset so the index is the position of the row in the entire table.
     loans = pd.DataFrame(acc).reset_index()
 
+    del loans['index']
     # Dump consolidated loans to a CSV and Pickle
     loans.to_csv(
         f"{output_dir}/loans.csv",
@@ -105,6 +107,9 @@ def process(input_dir, output_dir, filename):
         index=False,
     )
     loans.to_pickle(f"{output_dir}/loans.pkl")
+    con = sqlite3.connect(f'{output_dir}/myturn.db')
+    loans.to_sql(name="loans", con=con, if_exists='replace', index=False)
+
 
     # Create a list of "Checkouts". Each checkout is a user checking out a group of items. This can be helpful to avoid
     # over-counting when users make a lot of loans.
@@ -119,4 +124,6 @@ def process(input_dir, output_dir, filename):
 
     checkouts.to_csv(f"{output_dir}/checkouts.csv", index=False)
     checkouts.to_pickle(f"{output_dir}/checkouts.pkl")
+    checkouts.to_sql(name="checkouts", con=con, if_exists='replace', index=False)
+
     print("loans complete")
