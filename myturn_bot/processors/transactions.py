@@ -7,7 +7,8 @@ from ._formats import MYTURN_DATETIME_FORMAT
 from ..chtl import OPEN_YEARS
 
 # Match everything but the number in of "$1.01" or "($1.01)"
-_balance_pattern = re.compile(r"[\$\(\)]")
+# Handle numbers with commas, e.g. "$1,000.00"
+_balance_pattern = re.compile(r"[\$\(\),]")
 
 
 def _balance_to_float(balance_string):
