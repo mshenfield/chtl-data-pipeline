@@ -5,6 +5,8 @@ of choice just before clicking the download link, opening the Network tab, click
 copying the URL shown in the Network tab.
 """
 
+from datetime import date
+
 # TODO: Adjust the "loans" file to be based on checked in date, not checked out date, to avoid this issue.
 ADMIN_USERS_PATH = "/library/orgMembership/exportUsers?format=csv&extension=csv&membershipTypeId=0&membershipExpiringAfter=struct&membershipExpiringAfter_tz=America%2FLos_Angeles&membershipExpiringAfter_time=00%3A00&membershipExpiringBefore=struct&membershipExpiringBefore_tz=America%2FLos_Angeles&membershipExpiringBefore_time=00%3A00&memberSinceAfter=struct&memberSinceAfter_tz=America%2FLos_Angeles&memberSinceAfter_time=00%3A00&memberSinceBefore=struct&memberSinceBefore_tz=America%2FLos_Angeles&memberSinceBefore_time=00%3A00&operatorsOnly=on&exportField=membership.attributes.membershipId&exportField=firstName&exportField=lastName&exportField=emailAddress&exportField=emailAddressConfirmed&exportField=unconfirmedEmailAddress&exportField=username&exportField=title&exportField=organizationName&exportField=address.street1&exportField=address.street2&exportField=address.city&exportField=address.principalSubdivision&exportField=address.postalCode&exportField=address.country.displayName&exportField=address.phone&exportField=address.phone2&exportField=address.notes&exportField=sex&exportField=age&exportField=firstName2&exportField=lastName2&exportField=emailAddress2&exportField=title2&exportField=organizationName2&exportField=address2.street1&exportField=address2.street2&exportField=address2.city&exportField=address2.principalSubdivision&exportField=address2.postalCode&exportField=address2.country.displayName&exportField=address2.phone&exportField=address2.phone2&exportField=address2.notes&exportField=membership.memberSince&exportField=firstFullMembershipStart&exportField=membershipType.name&exportField=latestMembershipPurchase&exportField=membershipExpiration&exportField=membership.autoRenews&exportField=autoPayStatements&exportField=attributes.latestNote&exportField=attributes.latestWarning&exportField=openingBalance&exportField=openingBalanceDate&exportField=dynamicFields.household_type&exportField=dynamicFields.income_range&exportField=dynamicFields.ethnicity&exportField=dynamicFields.disabled&exportField=dynamicFields.renter&exportField=dynamicFields.household_size"
 # Similar to a normal loans report, but returns just the items that are currently checked out.
@@ -31,5 +33,40 @@ def transactions_report_path(year):
     """Return the transaction report path for the given year, starting at the first day and including the last day.
 
     year: an integer year.
+    months: a list of integers representing the months to include in the report.
     """
-    return f"/library/orgMyOrganization/exportTransactionReport?format=csv&extension=csv&after_date=1%2F1%2F{year}&after=struct&after_tz=America%2FLos_Angeles&after_time=00%3A00&before_date=12%2F31%2F{year}&before=struct&before_tz=America%2FLos_Angeles&before_time=23%3A59"
+    return f"/library/orgMyOrganization/exportTransactionReport?format=csv&extension=csv&after_date=6%2F1%2F{year}&after=struct&after_tz=America%2FLos_Angeles&after_time=00%3A00&before_date=12%2F31%2F{year}&before=struct&before_tz=America%2FLos_Angeles&before_time=23%3A59"
+
+
+def loans_report_path_monthly(start_date: date, end_date: date):
+    """Return the loans report path for the given date range.
+    
+    Args:
+        start_date: Start date for the report
+        end_date: End date for the report
+        
+    Returns:
+        URL path for the loans report
+    """
+    # Format dates as M/D/YYYY for MyTurn
+    start_str = f"{start_date.month}%2F{start_date.day}%2F{start_date.year}"
+    end_str = f"{end_date.month}%2F{end_date.day}%2F{end_date.year}"
+    
+    return f"/library/orgLoan/exportLoans?format=csv&extension=csv&checkedOutBefore=struct&checkedOutBefore_time=23%3A59&checkedOutBefore_tz=America%2FLos_Angeles&checkedOutAfter=struct&checkedOutAfter_time=00%3A00&checkedOutAfter_tz=America%2FLos_Angeles&checkedInBefore=struct&checkedInBefore_date={end_str}&checkedInBefore_time=23%3A59&checkedInBefore_tz=America%2FLos_Angeles&checkedInAfter=struct&checkedInAfter_date={start_str}&checkedInAfter_time=00%3A00&checkedInAfter_tz=America%2FLos_Angeles&dueBefore=struct&dueBefore_time=23%3A59&dueBefore_tz=America%2FLos_Angeles&dueAfter=struct&dueAfter_time=00%3A00&dueOutAfter_tz=America%2FLos_Angeles&includeProjectData=false"
+
+
+def transactions_report_path_monthly(start_date: date, end_date: date):
+    """Return the transaction report path for the given date range.
+    
+    Args:
+        start_date: Start date for the report
+        end_date: End date for the report
+        
+    Returns:
+        URL path for the transaction report
+    """
+    # Format dates as M/D/YYYY for MyTurn
+    start_str = f"{start_date.month}%2F{start_date.day}%2F{start_date.year}"
+    end_str = f"{end_date.month}%2F{end_date.day}%2F{end_date.year}"
+    
+    return f"/library/orgMyOrganization/exportTransactionReport?format=csv&extension=csv&after_date={start_str}&after=struct&after_tz=America%2FLos_Angeles&after_time=00%3A00&before_date={end_str}&before=struct&before_tz=America%2FLos_Angeles&before_time=23%3A59"

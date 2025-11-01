@@ -58,6 +58,93 @@ def cli():
     "--output",
     required=True,
     type=click.Path(exists=True, file_okay=False, dir_okay=True, writable=True),
+    help="The directory containing the monthly files to combine.",
+)
+@click.option(
+    "--file-prefix",
+    help="File prefix to combine (e.g., 'loans-', 'transactions-'). If not provided, combines all prefixes found.",
+)
+@click.option(
+    "--year",
+    type=int,
+    help="Year to combine files for. If not provided, combines all years found.",
+)
+def combine_monthly(output, file_prefix, year):
+    """Combine monthly chunk files into yearly files without re-downloading."""
+    from .pipeline import combine_monthly_files
+    import glob
+    import os
+    
+    downloads_dir = f"{output}/downloads"
+    chunks_dir = f"{output}/downloads/chunks"
+    
+    if not os.path.exists(downloads_dir):
+        print(f"Error: Downloads directory '{downloads_dir}' not found")
+        return
+    
+    if not os.path.exists(chunks_dir):
+        print(f"Error: Chunks directory '{chunks_dir}' not found")
+        return
+    
+    if file_prefix and year:
+        # Combine specific prefix and year
+        try:
+            combine_monthly_files(chunks_dir, downloads_dir, file_prefix, year)
+        except FileNotFoundError as e:
+            print(f"Error: {e}")
+    elif file_prefix:
+        # Find all years for this prefix
+        pattern = f"{chunks_dir}/{file_prefix}*-*.csv"
+        monthly_files = glob.glob(pattern)
+        
+        years = set()
+        for file_path in monthly_files:
+            filename = os.path.basename(file_path)
+            parts = filename.split('-')
+            if len(parts) >= 3:
+                year = int(parts[1])
+                years.add(year)
+        
+        for year in sorted(years):
+            try:
+                combine_monthly_files(chunks_dir, downloads_dir, file_prefix, year)
+            except FileNotFoundError as e:
+                print(f"Warning: {e}")
+    else:
+        # Find all monthly files and group them
+        pattern = f"{chunks_dir}/*-*-*.csv"
+        monthly_files = glob.glob(pattern)
+        
+        # Group by prefix and year
+        groups = {}
+        for file_path in monthly_files:
+            filename = os.path.basename(file_path)
+            # Extract prefix and year from filename like "loans-2024-01.csv"
+            parts = filename.split('-')
+            if len(parts) >= 3:
+                prefix = parts[0] + '-'
+                year = int(parts[1])
+                key = (prefix, year)
+                if key not in groups:
+                    groups[key] = []
+                groups[key].append(file_path)
+        
+        # Combine each group
+        for (prefix, year), files in groups.items():
+            if len(files) > 1:  # Only combine if there are multiple files
+                try:
+                    combine_monthly_files(chunks_dir, downloads_dir, prefix, year)
+                except FileNotFoundError as e:
+                    print(f"Warning: {e}")
+            else:
+                print(f"Only one file found for {prefix}{year}, skipping combination")
+
+
+@cli.command()
+@click.option(
+    "--output",
+    required=True,
+    type=click.Path(exists=True, file_okay=False, dir_okay=True, writable=True),
     help="The directory to place downloaded and processed data.",
 )
 @click.option(
@@ -101,7 +188,21 @@ def cli():
     help="A comma separated list of years to download loans and transactions for. By default, all "
     "the years CHTL has been officially open.",
 )
-def pipeline(output, subdomain, username, password, stages, files, years):
+@click.option(
+    "--chunk-by-month/--no-chunk-by-month",
+    default=False,
+    show_default=True,
+    help="When enabled, downloads loans and transactions data in monthly chunks to avoid timeouts. "
+    "When disabled, downloads entire years at once (may timeout on large datasets).",
+)
+@click.option(
+    "--combine-monthly/--no-combine-monthly",
+    default=False,
+    show_default=True,
+    help="When enabled and chunking is used, combines monthly files back into yearly files after download. "
+    "This makes the files compatible with existing processing logic.",
+)
+def pipeline(output, subdomain, username, password, stages, files, years, chunk_by_month, combine_monthly):
     _pipeline(
         output_dir=output,
         myturn_subdomain=subdomain,
@@ -110,4 +211,6 @@ def pipeline(output, subdomain, username, password, stages, files, years):
         stages=stages,
         myturn_files=files,
         years=years,
+        chunk_by_month=chunk_by_month,
+        combine_monthly_chunks=combine_monthly,
     )
