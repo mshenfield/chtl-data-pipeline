@@ -39,13 +39,13 @@ def process(input_dir, output_dir, filename):
     }
     # Convert each status into it's own column and delete the "Status(es)" column because it's hard to use
     for status in set(s for statutes in inventory["Status(es)"] for s in statuses):
-        inventory[status] = raw_inventory["Status(es)"].map(lambda s: status in s)
+        inventory.loc[:, status] = raw_inventory["Status(es)"].map(lambda s: status in s)
 
     del inventory["Status(es)"]
     inventory.to_pickle(f"{output_dir}/{filename}.pkl")
     # Convert Keywords to strings before dumping. Sets are not supported by the sqlite3 converter, and
     # when dumped to csv it prints the datastructure
-    inventory['Keywords'] = inventory['Keywords'].map(lambda k: ",".join(k))
+    inventory.loc[:, 'Keywords'] = inventory.loc[:, 'Keywords'].map(lambda k: ",".join(k))
     inventory.to_csv(f"{output_dir}/{filename}.csv", index=False)
     con = sqlite3.connect(f'{output_dir}/myturn.db')
     # Remove date cols for now :( Keep getting "Error binding parameter 54: type 'Timestamp' is not supported"

@@ -92,9 +92,7 @@ def process(input_dir, output_dir, filename):
 
     # "Item Type" is only set for the first row in a sequence of transactions.
     # Use the initial value for each row for forward fill until the next value.
-    txns["Item Type"] = txns["Item Type"].fillna(
-        method="ffill", inplace=True
-    )
+    txns.loc[:, "Item Type"] = txns.loc[:, "Item Type"].ffill()
 
     # Don't dump the index column, we really don't need it.
     del txns['index']

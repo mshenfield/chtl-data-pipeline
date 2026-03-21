@@ -12,7 +12,7 @@ def process(input_dir, output_dir, filename):
             # A handful of users have string Member IDs
             "Member ID",
             # Gender is filled for about 1/3rd of users, but isn't required anymore
-            "Sex",
+            "Gender",
             # Age is required now, and filled for 2/3rds of users
             "Age",
             # Include Race columns - even though they're not frequently filled in, glean what we can
@@ -65,7 +65,7 @@ def process(input_dir, output_dir, filename):
             "Current Membership Expiration (M/D/YYYY)": "Expiration",
         }
     )
-    users["Sex"] = users["Sex"].fillna("unknown")
+    users.fillna({"Gender": "unknown"}, inplace=True)
 
     users.to_csv(f"{output_dir}/{filename}.csv")
     users.to_pickle(f"{output_dir}/{filename}.pkl")
